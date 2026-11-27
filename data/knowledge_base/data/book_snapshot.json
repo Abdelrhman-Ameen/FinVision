@@ -1,0 +1,8 @@
+{
+  "publication_count": 10,
+  "evidence_records": 10925,
+  "snapshot_sha256": {
+    "books.jsonl": "7b5a9f2064338d59dd31b070cfaf71d3b36ef15a4feb2128fa8cfe85ce985e2f",
+    "book_passages.jsonl.gz": "84e443564969ca000ff94c39ec8c2442cd8b5704abd068ff45abeebdc796f690"
+  }
+}

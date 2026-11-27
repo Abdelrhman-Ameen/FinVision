@@ -1,0 +1,158 @@
+[
+  {
+    "id": "fx-cost",
+    "question": "لو الدولار زاد 15% وعندي 30% من تكاليف التشغيل مستوردة، أعمل إيه في الـSimulation؟",
+    "evidence_ids": [
+      "eg-cbe-exchange",
+      "eg-imf-macro-2026"
+    ],
+    "should_include": "اطلب أساس التكلفة وتوقيتها، واذكر أن 4.5% زيادة في إجمالي التكلفة مشروطة بثبات الباقي وبتمرير الصدمة بالكامل إلى الجزء المعرض.",
+    "should_avoid": "تطبيق 15% على كل المصاريف أو استخدام رقم ماكرو كمعامل للشركة."
+  },
+  {
+    "id": "fx-current",
+    "question": "الدولار عامل كام النهاردة عند البنك المركزي؟",
+    "evidence_ids": [
+      "eg-cbe-exchange"
+    ],
+    "should_include": "اطلب رصدًا مباشرًا مؤرخًا ونوع السعر، وصرح بعدم وجود قيمة حديثة إذا تعذر الجلب.",
+    "should_avoid": "تقديم المتوسط السنوي أو رقم قديم كسعر النهاردة."
+  },
+  {
+    "id": "inflation-cost",
+    "question": "ينفع أزود مصاريف الشركة كلها بنفس نسبة التضخم الرسمي؟",
+    "evidence_ids": [
+      "eg-cbe-inflation",
+      "eg-imf-macro-2026"
+    ],
+    "should_include": "اشرح أساس مؤشر المستهلك واطلب صدمات أو نسب تكاليف حسب البند.",
+    "should_avoid": "تحويل رقم التضخم تلقائيًا إلى نمو التكاليف أو سعر البيع."
+  },
+  {
+    "id": "interest",
+    "question": "الفائدة زادت. قسط قرضي هيزيد قد إيه؟",
+    "evidence_ids": [
+      "eg-cbe-interest",
+      "guide-financial-ratios"
+    ],
+    "should_include": "اطلب سعر العقد والفائدة الثابتة أو المتغيرة وطريقة إعادة التسعير وجدول السداد.",
+    "should_avoid": "اعتبار سعر المركزي هو سعر القرض."
+  },
+  {
+    "id": "egypt-finance",
+    "question": "لو أنا شركة صغيرة في مصر، هل الشركات زَيّي بتعتمد على القروض؟",
+    "evidence_ids": [
+      "eg-wbes-2020",
+      "eg-oecd-sme-2025"
+    ],
+    "should_include": "اذكر تعريف المؤشر وفئة العمالة وسنة 2020، وميّز امتلاك التمويل من استخدامه لرأس مال عامل.",
+    "should_avoid": "اعتبار النسبة فرصة الموافقة على قرض أو رقمًا حديثًا."
+  },
+  {
+    "id": "egypt-grants",
+    "question": "فيه دراسة مصرية قارنت القرض بالمنحة؟",
+    "evidence_ids": [
+      "eg-microfinance-rct"
+    ],
+    "should_include": "اذكر البرنامج والعينة وتفاوت النتائج، وقارن التكلفة والتدفق الفعلي قبل اقتراح خيار.",
+    "should_avoid": "وعد بنفس الدخل للشركة أو مساواة تكلفة القرض بالمنحة."
+  },
+  {
+    "id": "exports",
+    "question": "عندي ورشة تصنيع. هل تجربة التصدير ممكن تفيدني؟",
+    "evidence_ids": [
+      "eg-export-rct"
+    ],
+    "should_include": "اذكر تجربة منتجي السجاد المصريين واقترح طلبية صغيرة مع تتبع جودة وتكلفة وهامش.",
+    "should_avoid": "استخدام 16–26% كزيادة مضمونة أو كمدخل افتراضي للنمو."
+  },
+  {
+    "id": "market",
+    "question": "فيه بيانات عن الشركات حديثة العمر في التصنيع والخدمات في مصر؟",
+    "evidence_ids": [
+      "eg-oecd-young-firms-2026"
+    ],
+    "should_include": "اذكر تعريف صفر إلى سنتين والتعداد 2022/23 ونطاق القطاعات.",
+    "should_avoid": "قراءة نسبة الشركات الحديثة على إنها نسبة بقاء أو فشل."
+  },
+  {
+    "id": "fintech",
+    "question": "ازاي أفهم سوق المدفوعات الرقمية لشركة FinTech في مصر؟",
+    "evidence_ids": [
+      "eg-fintech-landscape",
+      "eg-itida-ecosystem-2026"
+    ],
+    "should_include": "ابدأ بنطاق المدفوعات وفترة التقرير، واطلب مصدرًا مؤرخًا للأسئلة التنظيمية الحديثة.",
+    "should_avoid": "تقديم التقرير كإرشاد ترخيص حالي أو تقدير حصة المشروع."
+  },
+  {
+    "id": "receivables",
+    "question": "لو قصّرت مدة التحصيل من 60 إلى 45 يوم، ده يحسن الكاش؟",
+    "evidence_ids": [
+      "guide-cash-conversion",
+      "guide-cash-dashboard"
+    ],
+    "should_include": "اقترح مقارنة الرصيد أسبوعيًا بتواريخ التحصيل والدفع، واطلب قيمة الفواتير المشمولة.",
+    "should_avoid": "مساواة التدفق النقدي بالربح أو فرض زيادات في المبيعات."
+  },
+  {
+    "id": "runway",
+    "question": "Should I keep 27 days of cash as an Egyptian startup?",
+    "evidence_ids": [
+      "int-us-cash-buffer",
+      "guide-cash-dashboard"
+    ],
+    "should_include": "Identify the US study sample, explain buffer days versus runway, and ask for usable balance and outflow assumptions.",
+    "should_avoid": "Present 27 days as a recommended cash target for Egypt."
+  },
+  {
+    "id": "ab-test",
+    "question": "لو جربت A/B testing لسعر اشتراكي الجديد، أقيس إيه؟",
+    "evidence_ids": [
+      "int-ab-testing",
+      "int-camuffo-rct"
+    ],
+    "should_include": "حدد فرضية ومقياس تحويل وهامش مساهمة ومدة، واشرح إن الدراسة لا تعطي مرونة السعر لشركتك.",
+    "should_avoid": "افتراض نسبة تحسن من الدراسة أو اعتبار زيارات الموقع ربحًا."
+  },
+  {
+    "id": "inventory",
+    "question": "باحثين لقوا إن تحسين إدارة المخزون ممكن يفرق في الأداء؟",
+    "evidence_ids": [
+      "int-india-management",
+      "int-woodruff-practices"
+    ],
+    "should_include": "ميّز التجربة العشوائية على مصانع النسيج من الدراسات الرصدية واذكر النتائج القابلة للقياس محليًا.",
+    "should_avoid": "اعتبار نتيجة المصانع مقدار أثر مباشر لمتجر مصري."
+  },
+  {
+    "id": "training-followup",
+    "question": "هل تدريب رواد الأعمال في تونس فعّال حتى بعد أربع سنين؟",
+    "evidence_ids": [
+      "mena-tunisia-training-short",
+      "mena-tunisia-training-followup"
+    ],
+    "should_include": "اقترن بالنتيجة قصيرة المدى مع نتيجة المتابعة، كنفس التجربة.",
+    "should_avoid": "عدّ المصدرين تجربتين مستقلتين أو تجاهل اختلاف المدى الزمني."
+  },
+  {
+    "id": "morocco-credit",
+    "question": "What did a rural Morocco microcredit trial find about income and investment?",
+    "evidence_ids": [
+      "mena-morocco-microcredit"
+    ],
+    "should_include": "Separate productive investment from overall income and identify the rural program population.",
+    "should_avoid": "Claim a general income gain or reuse the effect as a startup growth input."
+  },
+  {
+    "id": "causal-out-of-scope",
+    "question": "لو خفضت تسعيري 10%، أرباحي هتزيد كام حسب الأبحاث؟",
+    "evidence_ids": [
+      "int-price-experiment",
+      "int-ab-testing",
+      "guide-financial-ratios"
+    ],
+    "should_include": "اطلب السعر الحالي والتكلفة والكمية وافتراض استجابة الطلب. اقترح تجربة أو عرض نتيجة مشروطة.",
+    "should_avoid": "اختراع مرونة الطلب أو نسبة أثر خاصة بالشركة من الأبحاث."
+  }
+]

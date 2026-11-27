@@ -1,0 +1,307 @@
+[
+  {
+    "id": "FP.CPI.TOTL.ZG",
+    "group": "economy",
+    "unit": "annual percent"
+  },
+  {
+    "id": "PA.NUS.FCRF",
+    "group": "economy",
+    "unit": "LCU per USD period average"
+  },
+  {
+    "id": "FR.INR.LEND",
+    "group": "finance",
+    "unit": "percent"
+  },
+  {
+    "id": "NY.GDP.MKTP.KD.ZG",
+    "group": "economy",
+    "unit": "annual percent"
+  },
+  {
+    "id": "NY.GDP.PCAP.KD",
+    "group": "economy",
+    "unit": "constant 2015 USD"
+  },
+  {
+    "id": "NE.CON.PRVT.ZS",
+    "group": "retail",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "SP.POP.TOTL",
+    "group": "demographics",
+    "unit": "people"
+  },
+  {
+    "id": "SP.URB.TOTL.IN.ZS",
+    "group": "demographics",
+    "unit": "percent of total population"
+  },
+  {
+    "id": "SL.UEM.TOTL.ZS",
+    "group": "labor",
+    "unit": "percent of labor force"
+  },
+  {
+    "id": "SL.TLF.CACT.ZS",
+    "group": "labor",
+    "unit": "percent ages 15+; modeled ILO estimate"
+  },
+  {
+    "id": "SL.TLF.TOTL.IN",
+    "group": "labor",
+    "unit": "people"
+  },
+  {
+    "id": "CM.MKT.LCAP.GD.ZS",
+    "group": "finance",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "FS.AST.PRVT.GD.ZS",
+    "group": "finance",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "FB.CBK.BRCH.P5",
+    "group": "finance",
+    "unit": "branches per 100,000 adults"
+  },
+  {
+    "id": "FX.OWN.TOTL.ZS",
+    "group": "fintech",
+    "unit": "percent ages 15+"
+  },
+  {
+    "id": "BX.KLT.DINV.WD.GD.ZS",
+    "group": "investment",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "NE.GDI.FTOT.ZS",
+    "group": "investment",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "NV.AGR.TOTL.ZS",
+    "group": "agriculture",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "NV.AGR.TOTL.KD.ZG",
+    "group": "agriculture",
+    "unit": "annual percent"
+  },
+  {
+    "id": "AG.PRD.FOOD.XD",
+    "group": "food",
+    "unit": "index, 2014–2016 = 100"
+  },
+  {
+    "id": "AG.LND.ARBL.ZS",
+    "group": "agriculture",
+    "unit": "percent of land area"
+  },
+  {
+    "id": "AG.YLD.CREL.KG",
+    "group": "agriculture",
+    "unit": "kilograms per hectare"
+  },
+  {
+    "id": "ER.FSH.AQUA.MT",
+    "group": "aquaculture",
+    "unit": "metric tons"
+  },
+  {
+    "id": "EG.ELC.ACCS.ZS",
+    "group": "energy",
+    "unit": "percent of population"
+  },
+  {
+    "id": "EG.FEC.RNEW.ZS",
+    "group": "energy",
+    "unit": "percent of total final energy consumption"
+  },
+  {
+    "id": "EG.ELC.RNEW.ZS",
+    "group": "energy",
+    "unit": "percent of total electricity output"
+  },
+  {
+    "id": "EG.ELC.LOSS.ZS",
+    "group": "energy",
+    "unit": "percent of output"
+  },
+  {
+    "id": "ER.H2O.FWST.ZS",
+    "group": "water",
+    "unit": "percent of available freshwater resources"
+  },
+  {
+    "id": "SH.H2O.BASW.ZS",
+    "group": "water",
+    "unit": "percent of population"
+  },
+  {
+    "id": "SH.STA.BASS.ZS",
+    "group": "water",
+    "unit": "percent of population"
+  },
+  {
+    "id": "NV.IND.MANF.ZS",
+    "group": "manufacturing",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "NV.IND.MANF.KD.ZG",
+    "group": "manufacturing",
+    "unit": "annual percent"
+  },
+  {
+    "id": "NV.IND.TOTL.ZS",
+    "group": "construction",
+    "unit": "percent of GDP including construction"
+  },
+  {
+    "id": "NV.SRV.TOTL.ZS",
+    "group": "business-services",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "NE.EXP.GNFS.ZS",
+    "group": "trade",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "NE.IMP.GNFS.ZS",
+    "group": "trade",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "TX.VAL.MANF.ZS.UN",
+    "group": "manufacturing",
+    "unit": "percent of merchandise exports"
+  },
+  {
+    "id": "TX.VAL.TECH.MF.ZS",
+    "group": "manufacturing",
+    "unit": "percent of manufactured exports"
+  },
+  {
+    "id": "TX.VAL.ICTG.ZS.UN",
+    "group": "telecom",
+    "unit": "percent of total goods exports"
+  },
+  {
+    "id": "BX.GSR.CCIS.ZS",
+    "group": "business-services",
+    "unit": "percent of service exports"
+  },
+  {
+    "id": "IT.NET.USER.ZS",
+    "group": "telecom",
+    "unit": "percent of population"
+  },
+  {
+    "id": "IT.CEL.SETS.P2",
+    "group": "telecom",
+    "unit": "subscriptions per 100 people"
+  },
+  {
+    "id": "IT.NET.BBND.P2",
+    "group": "telecom",
+    "unit": "subscriptions per 100 people"
+  },
+  {
+    "id": "GB.XPD.RSDV.GD.ZS",
+    "group": "innovation",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "IP.PAT.RESD",
+    "group": "innovation",
+    "unit": "applications"
+  },
+  {
+    "id": "IC.BUS.NDNS.ZS",
+    "group": "formalization",
+    "unit": "new registrations per 1,000 people ages 15–64"
+  },
+  {
+    "id": "IS.SHP.GOOD.TU",
+    "group": "logistics",
+    "unit": "TEU"
+  },
+  {
+    "id": "IS.AIR.PSGR",
+    "group": "mobility",
+    "unit": "passengers carried"
+  },
+  {
+    "id": "LP.LPI.OVRL.XQ",
+    "group": "logistics",
+    "unit": "score 1 to 5"
+  },
+  {
+    "id": "ST.INT.ARVL",
+    "group": "tourism",
+    "unit": "international arrivals"
+  },
+  {
+    "id": "ST.INT.RCPT.CD",
+    "group": "tourism",
+    "unit": "current USD"
+  },
+  {
+    "id": "SH.XPD.CHEX.GD.ZS",
+    "group": "health",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "SH.XPD.OOPC.CH.ZS",
+    "group": "health",
+    "unit": "percent of current health expenditure"
+  },
+  {
+    "id": "SH.MED.PHYS.ZS",
+    "group": "health",
+    "unit": "per 1,000 people"
+  },
+  {
+    "id": "SH.MED.BEDS.ZS",
+    "group": "health",
+    "unit": "per 1,000 people"
+  },
+  {
+    "id": "SE.SEC.ENRR",
+    "group": "education",
+    "unit": "gross enrollment ratio, percent"
+  },
+  {
+    "id": "SE.TER.ENRR",
+    "group": "education",
+    "unit": "gross enrollment ratio, percent"
+  },
+  {
+    "id": "SE.XPD.TOTL.GD.ZS",
+    "group": "education",
+    "unit": "percent of GDP"
+  },
+  {
+    "id": "IC.ELC.OUTG.ZS",
+    "group": "energy",
+    "unit": "percent of surveyed firms"
+  },
+  {
+    "id": "IC.FRM.BKWC.ZS",
+    "group": "finance",
+    "unit": "percent of surveyed firms"
+  },
+  {
+    "id": "IC.FRM.CORR.ZS",
+    "group": "formalization",
+    "unit": "percent of surveyed firms"
+  }
+]

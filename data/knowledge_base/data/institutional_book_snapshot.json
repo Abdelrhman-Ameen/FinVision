@@ -1,0 +1,26 @@
+{
+  "publication_count": 141,
+  "evidence_records": 68350,
+  "passage_limit_per_book": null,
+  "egypt_books": 8,
+  "topics": {
+    "software": 18,
+    "health": 17,
+    "egypt": 8,
+    "finance": 20,
+    "food": 12,
+    "regional": 17,
+    "energy": 22,
+    "costs": 31,
+    "hiring": 24,
+    "construction": 16,
+    "innovation": 21,
+    "exports": 15,
+    "education": 12
+  },
+  "failed_downloads": {},
+  "snapshot_sha256": {
+    "institutional_books.jsonl": "3a2d2d2a42767be56692c83a875c72febd493251f093cd723807ef4683aad656",
+    "institutional_book_passages.jsonl.gz": "59bc82f6ab6ee381ba7565e60018bab2925fe5d34c4858348a7c65c30006b9d2"
+  }
+}

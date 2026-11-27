@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>دليل المؤسس | ESIS</title>
+  <script src="/assets/theme.js?v=__ASSET_VERSION__"></script>
+  <link rel="stylesheet" href="/assets/fonts/plex.css?v=__ASSET_VERSION__">
+  <link rel="stylesheet" href="/assets/chat.css?v=__ASSET_VERSION__">
+  <script src="/assets/chat.js?v=__ASSET_VERSION__" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">دليل المؤسس <small lang="en" dir="ltr">ESIS</small></span>
+      </a>
+      <div class="top-actions">
+        <div class="theme-picker" role="group" aria-label="مظهر الواجهة">
+          <button type="button" data-theme-value="light" aria-label="الوضع الفاتح" aria-pressed="false">
+            <span class="theme-symbol sun" aria-hidden="true">☼</span><span class="theme-label">فاتح</span>
+          </button>
+          <button type="button" data-theme-value="dark" aria-label="الوضع الداكن" aria-pressed="false">
+            <span class="theme-symbol moon" aria-hidden="true">◐</span><span class="theme-label">داكن</span>
+          </button>
+        </div>
+        <button type="button" id="reset" class="new-chat"><span aria-hidden="true">＋</span> محادثة جديدة</button>
+      </div>
+    </div>
+  </header>
+  <main class="desk">
+    <section class="chat" aria-labelledby="chat-title">
+      <header class="chat-bar">
+        <div class="chat-heading">
+          <h1 id="chat-title">المحادثة</h1>
+          <p id="availability" class="availability" role="status" data-state="pending">
+            <span id="availability-text">بنتأكد إن البحث جاهز…</span>
+          </p>
+        </div>
+        <button type="button" id="source-toggle" class="source-toggle" aria-controls="sources" aria-expanded="false">المصادر <span id="mobile-source-count" hidden></span></button>
+      </header>
+      <div class="timeline" id="timeline">
+        <section id="welcome" class="welcome">
+          <header class="welcome-head">
+            <h2>إيه القرار اللي بتدرسه؟</h2>
+            <p>اسأل عن السوق المصري أو عن قرار بتفكر فيه. هتلاقي المراجع جنب الرد عشان تقدر تراجعها.</p>
+          </header>
+          <div class="suggestions" aria-label="أسئلة ممكن تبدأ بيها">
+            <button type="button" class="suggestion">
+              <span class="topic expansion">توسّع</span>
+              <span class="suggestion-text">أدرس إيه قبل ما أفتح فرع جديد؟</span>
+              <span class="suggestion-arrow" aria-hidden="true">↖</span>
+            </button>
+            <button type="button" class="suggestion">
+              <span class="topic finance">تمويل</span>
+              <span class="suggestion-text">فيه دراسة مصرية قارنت القرض بالمنحة؟</span>
+              <span class="suggestion-arrow" aria-hidden="true">↖</span>
+            </button>
+            <button type="button" class="suggestion">
+              <span class="topic economy">اقتصاد</span>
+              <span class="suggestion-text">كام كان التضخم السنوي في مصر في 2024؟</span>
+              <span class="suggestion-arrow" aria-hidden="true">↖</span>
+            </button>
+          </div>
+        </section>
+        <div id="messages" aria-live="polite" aria-relevant="additions text"></div>
+      </div>
+      <form id="ask" class="composer">
+        <div class="composer-box">
+          <label for="question" class="sr-only">سؤالك</label>
+          <textarea id="question" rows="2" maxlength="900" dir="auto" placeholder="اكتب سؤالك…" required></textarea>
+          <div class="composer-actions">
+            <span id="length" class="input-length" dir="ltr" hidden></span>
+            <button id="send" type="submit">اسأل <span aria-hidden="true">←</span></button>
+          </div>
+        </div>
+        <div class="composer-note">
+          <span>خلي سؤالك من غير بيانات مالية أو شخصية خاصة.</span>
+          <span class="keys"><kbd>Shift</kbd> + <kbd>Enter</kbd> لسطر جديد</span>
+        </div>
+      </form>
+    </section>
+    <aside id="sources" class="sources" aria-labelledby="sources-title">
+      <header class="sources-head">
+        <h2 id="sources-title"><span class="index-mark" aria-hidden="true"></span> المصادر</h2>
+        <span id="source-count" class="source-count" hidden></span>
+        <button type="button" id="source-close" class="source-close" aria-label="إغلاق المصادر">×</button>
+      </header>
+      <div class="source-content">
+        <div id="empty-sources" class="source-empty">
+          <span class="reference-sheet" aria-hidden="true"><span></span></span>
+          <p>مصادر الإجابة هتظهر هنا.</p>
+          <small>اضغط على رقم الاستشهاد في الرد عشان تشوف المرجع والجزء المستخدم منه.</small>
+        </div>
+        <div id="source-list"></div>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>

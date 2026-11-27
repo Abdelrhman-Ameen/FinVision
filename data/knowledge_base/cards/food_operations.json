@@ -1,0 +1,62 @@
+[
+  {
+    "id": "food-standard-cost",
+    "kind": "practice",
+    "regions": ["GLOBAL"],
+    "year": 2015,
+    "scope": "BCcampus kitchen operating method, applicable with actual shop invoices and yields",
+    "source": "https://opentextbc.ca/basickitchenandfoodservicemanagement/chapter/controlling-food-costs/",
+    "locator": "Controlling Food Costs, standardized recipes, portions and costs",
+    "tags": ["food", "restaurant", "poultry", "fried chicken", "recipe costing", "yield", "هالك", "فراخ", "فرايد تشيكن", "تكلفة الوجبة", "مطعم"],
+    "title_ar": "تكلفة وجبة الفراخ بعد الهالك",
+    "finding_ar": "تثبيت الوصفة ووزن الحصة يخلي تكلفة كل وجبة قابلة للقياس. حساب المكونات يبدأ من الكمية اللي ينفع تتباع بعد التنظيف والتجهيز.",
+    "application_ar": "احسب الفراخ والزيت والتتبيلة والمكونات من فواتيرك ومن ناتج دفعة تجهيز فعلية، وبعدين ضيف التغليف والعمولة المتغيرة على حسب قناة البيع.",
+    "limit_ar": "دي طريقة تشغيل عامة. تكلفة الدجاج الفعلية تعتمد على المورد والوزن والعائد بعد التجهيز والهالك في المحل.",
+    "text_en": "Use standardized recipes, portions and usable yield to estimate ingredient cost; calculate packaging and channel fees separately if they vary by order."
+  },
+  {
+    "id": "food-menu-margin",
+    "kind": "practice",
+    "regions": ["GLOBAL"],
+    "year": 2015,
+    "scope": "BCcampus food service menu engineering",
+    "source": "https://opentextbc.ca/basickitchenandfoodservicemanagement/chapter/describe-the-principles-of-menu-engineering/",
+    "locator": "Principles of Menu Engineering, popularity and contribution margin",
+    "tags": ["food", "restaurant", "poultry", "menu engineering", "pricing", "unit economics", "ربحية", "أرباح", "مطعم", "فراخ", "وجبات", "منيو", "هامش المساهمة"],
+    "title_ar": "صنف بيبيع كتير ممكن يسيب هامش ضعيف",
+    "finding_ar": "هندسة المنيو بتقارن عدد مرات بيع كل صنف بالهامش اللي بيسيبه. هامش المكوّنات في الكتاب هو سعر البيع مطروح منه تكلفة أكل الصنف.",
+    "application_ar": "احسب الهامش لكل صنف وقناة بيع. في قرار تشغيل المحل اخصم كمان التغليف والعمولة اللي بتتغير مع الطلب من صافي سعر البيع بعد الخصم.",
+    "limit_ar": "هامش الطلب قبل الإيجار والمرتبات الثابتة مش صافي ربح المحل. قارن أصناف بتتباع في فترات متشابهة.",
+    "text_en": "Menu engineering combines item popularity with selling price minus food cost. For total per-order contribution, also account for packaging and variable channel fees."
+  },
+  {
+    "id": "food-break-even",
+    "kind": "practice",
+    "regions": ["GLOBAL"],
+    "year": 2019,
+    "scope": "OpenStax managerial accounting method for retail, services and food businesses",
+    "source": "https://openstax.org/books/principles-managerial-accounting/pages/3-2-calculate-a-break-even-point-in-units-and-dollars",
+    "locator": "Sections 3.2 and 3.4, break-even and multiproduct sales mix",
+    "tags": ["food", "restaurant", "break even", "cost volume profit", "unit economics", "pricing", "ربحية", "بتكسب", "مكسب", "نقطة التعادل", "فراخ", "مصاريف"],
+    "title_ar": "نقطة التعادل وحجم المبيعات اللي يغطي المصاريف",
+    "finding_ar": "نقطة التعادل بالوحدات أو الطلبات تساوي التكاليف الثابتة للفترة مقسومة على متوسط هامش المساهمة الموجب لكل عملية بيع. الهامش يساوي صافي سعر البيع ناقص التكلفة المتغيرة، ويتوزن بمزيج المبيعات لو المنتجات أو الخدمات مختلفة.",
+    "application_ar": "قارن حجم المبيعات المطلوب بالمبيعات الفعلية أو تجربة البيع وبقدرة تشغيل الفرع. أعد الحساب لو الأسعار أو التكاليف المتغيرة اتغيرت.",
+    "limit_ar": "لو هامش الطلب صفر أو بالسالب، زيادة المبيعات بنفس التركيبة ما تغطيش التكاليف الثابتة. التعادل التشغيلي غير استرداد مصاريف التأسيس.",
+    "text_en": "Break-even orders equal period fixed costs divided by positive average order contribution. Use a sales-mix weighted contribution when there are multiple items."
+  },
+  {
+    "id": "food-location-demand",
+    "kind": "practice",
+    "regions": ["GLOBAL"],
+    "year": null,
+    "scope": "SBA market research method, applied with Egyptian neighborhood observations",
+    "source": "https://www.sba.gov/business-guide/plan-your-business/market-research-competitive-analysis",
+    "locator": "Use market research to find customers and competitive analysis to find a market advantage",
+    "tags": ["food", "restaurant", "branch", "expansion", "market research", "competition", "demand", "محل", "فراخ", "فرع", "منطقة", "توسع", "منافسين", "الطلب"],
+    "title_ar": "إزاي تدرس الطلب والمنافسة قبل فتح فرع جديد",
+    "finding_ar": "تقييم سوق محلي محتاج تقدير الطلب وحجم السوق والمنافسة والأسعار في منطقة العملاء المحتملين، وممكن تكمله ببحث مباشر مع العملاء.",
+    "application_ar": "قارن مناطق مرشحة من حيث أسعار المنافسين والوصول والتوصيل والإيجار. جرّب البيع أو التوصيل في كل منطقة وقارن عدد الطلبات المدفوعة بنقطة التعادل.",
+    "limit_ar": "بيانات السوق القومي لا تقيس الطلب في شارع معين. قياس مرور الناس وحده لا يثبت إنهم هيشتروا.",
+    "text_en": "Compare candidate trade areas on demand, market saturation, pricing and alternatives; use direct customer research and actual pilot orders before signing a lease."
+  }
+]
