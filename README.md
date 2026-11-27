@@ -8,8 +8,6 @@ FinVision helps founders in Egypt ask questions about their business and review 
 
 | Who | Work |
 | --- | --- |
-| Ahmed | Draw the state diagram for how the system responds to events. |
-| Abdelrhman Ameen | Improve the RAG chatbot and draw the use case diagram. |
-| Tarek Mohamed | Set up the GitHub Actions workflow and work on the ML component. |
-
-Track each task in the **Issues** tab.
+| Ahmed Abosdera | [Draw the state diagram](https://github.com/Abdelrhman-Ameen/FinVision/issues/1) to show how the system responds to events. |
+| Abdelrhman Ameen | [Improve the RAG chatbot](https://github.com/Abdelrhman-Ameen/FinVision/issues/2) and [draw the use case diagram](https://github.com/Abdelrhman-Ameen/FinVision/issues/3). |
+| Tarek Mohamed | [Set up GitHub Actions](https://github.com/Abdelrhman-Ameen/FinVision/issues/4) and [develop and evaluate the ML component](https://github.com/Abdelrhman-Ameen/FinVision/issues/5). |
