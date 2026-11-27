@@ -15,10 +15,4 @@ FinVision helps founders in Egypt ask questions about their business and review 
 
 The [data guide](data/README.md) lists the files, their sources, and which work uses them.
 
-## Phase 1
-
-| Who | Work |
-| --- | --- |
-| Ahmed Abosdera | [Draw the state diagram](https://github.com/Abdelrhman-Ameen/FinVision/issues/1) to show how the system responds to events. |
-| Abdelrhman Ameen | [Improve the RAG chatbot](https://github.com/Abdelrhman-Ameen/FinVision/issues/2) and [draw the use case diagram](https://github.com/Abdelrhman-Ameen/FinVision/issues/3). |
-| Tarek Mohamed | [Set up GitHub Actions](https://github.com/Abdelrhman-Ameen/FinVision/issues/4) and [develop and evaluate the ML component](https://github.com/Abdelrhman-Ameen/FinVision/issues/5). |
+Track Phase 1 work on the [FinVision project board](https://github.com/users/Abdelrhman-Ameen/projects/1).
