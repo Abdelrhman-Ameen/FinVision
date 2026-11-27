@@ -1,0 +1,771 @@
+[
+  {
+    "id": "price-change",
+    "title_ar": "تغيير سعر البيع",
+    "title_en": "Price change",
+    "groups": [
+      "pricing",
+      "retail",
+      "ecommerce"
+    ],
+    "inputs_ar": [
+      "السعر الحالي",
+      "التكلفة المتغيرة للوحدة",
+      "حجم المبيعات",
+      "استجابة الكمية المفترضة"
+    ],
+    "output_ar": "هامش المساهمة ونقطة التعادل بين السيناريوهات",
+    "evidence_ids": [
+      "int-price-experiment",
+      "guide-financial-ratios",
+      "int-ab-testing",
+      "food-menu-margin",
+      "food-break-even"
+    ],
+    "caution_ar": "محاكاة استجابة الطلب تحتاج بيانات اختبار أو افتراضًا يؤكده العميل."
+  },
+  {
+    "id": "promotion",
+    "title_ar": "الخصومات والعروض",
+    "title_en": "Promotions and discounting",
+    "groups": [
+      "pricing",
+      "marketing",
+      "retail"
+    ],
+    "inputs_ar": [
+      "الخصم",
+      "التكلفة المتغيرة",
+      "خط أساس المبيعات",
+      "المدة",
+      "الوحدات الإضافية المفترضة"
+    ],
+    "output_ar": "الزيادة المطلوبة في الكمية لتغطية الخصم",
+    "evidence_ids": [
+      "int-price-experiment",
+      "guide-financial-ratios",
+      "int-ab-testing"
+    ],
+    "caution_ar": "افصل المبيعات الجديدة عن تقديم موعد شراء عملاء كانوا هيشتروا عادي."
+  },
+  {
+    "id": "cost-cut",
+    "title_ar": "تقليل المصاريف",
+    "title_en": "Operating-cost reduction",
+    "groups": [
+      "costs",
+      "risk",
+      "productivity"
+    ],
+    "inputs_ar": [
+      "التكلفة محل التخفيض",
+      "توقيت التوفير",
+      "تكلفة التنفيذ",
+      "أثر محتمل على الجودة أو المبيعات"
+    ],
+    "output_ar": "صافي التوفير ومسار النقد",
+    "evidence_ids": [
+      "guide-cash-dashboard",
+      "guide-financial-ratios"
+    ],
+    "caution_ar": "قسّم المصاريف إلى ثابتة ومتغيرة واترك أثر الجودة افتراضًا قابلًا للاختبار."
+  },
+  {
+    "id": "runway",
+    "title_ar": "السيولة والحرق النقدي",
+    "title_en": "Runway and cash exhaustion",
+    "groups": [
+      "working-capital",
+      "risk",
+      "finance"
+    ],
+    "inputs_ar": [
+      "النقد المتاح",
+      "مواعيد المقبوضات والمدفوعات",
+      "الالتزامات القريبة",
+      "الأفق"
+    ],
+    "output_ar": "أقل رصيد وأول فترة يحدث فيها عجز",
+    "evidence_ids": [
+      "guide-cash-dashboard",
+      "int-us-cash-buffer"
+    ],
+    "caution_ar": "حساب تاريخ نفاد النقد من الجدول يتعامل مع المدفوعات المتقطعة أفضل من قسمة مباشرة عند تقلب الحرق."
+  },
+  {
+    "id": "collections",
+    "title_ar": "تأخير التحصيل أو تسريعه",
+    "title_en": "Receivables and collection delays",
+    "groups": [
+      "working-capital"
+    ],
+    "inputs_ar": [
+      "الأرصدة حسب العميل أو الدفعة",
+      "تاريخ التحصيل الفعلي أو المفترض",
+      "نسبة التعثر المفترضة",
+      "رصيد البداية"
+    ],
+    "output_ar": "أثر تأخير التحصيل على النقد والاحتياطي",
+    "evidence_ids": [
+      "int-quickpay",
+      "guide-cash-conversion",
+      "guide-cash-dashboard"
+    ],
+    "caution_ar": "فرّق بين تغيير توقيت القبض وخسارة الفاتورة."
+  },
+  {
+    "id": "payables",
+    "title_ar": "تغيير آجال الموردين",
+    "title_en": "Supplier payment terms",
+    "groups": [
+      "working-capital",
+      "logistics"
+    ],
+    "inputs_ar": [
+      "دفعات الموردين",
+      "الآجال",
+      "خصومات السداد",
+      "الغرامات أو الرسوم"
+    ],
+    "output_ar": "فجوة التمويل وتكلفة تغيير الشروط",
+    "evidence_ids": [
+      "int-quickpay",
+      "guide-cash-conversion",
+      "guide-cash-dashboard"
+    ],
+    "caution_ar": "راجع ما إذا كان تغيير الآجال يضيع خصمًا أو يرفع التكلفة."
+  },
+  {
+    "id": "inventory",
+    "title_ar": "المخزون والفاقد ونفاد البضاعة",
+    "title_en": "Inventory, spoilage and stockouts",
+    "groups": [
+      "retail",
+      "productivity",
+      "manufacturing",
+      "food"
+    ],
+    "inputs_ar": [
+      "أيام المخزون",
+      "تكلفة الوحدة",
+      "الطلب",
+      "مدة التوريد",
+      "الفاقد أو التلف"
+    ],
+    "output_ar": "نقد مربوط ومعدل نفاد ومخاطر فاقد",
+    "evidence_ids": [
+      "int-india-management",
+      "int-woodruff-practices",
+      "guide-cash-conversion"
+    ],
+    "caution_ar": "أثر خفض المخزون على المبيعات وخدمة العميل يحتاج افتراضًا أو قياسًا خاصًا بنشاطه."
+  },
+  {
+    "id": "supply-disruption",
+    "title_ar": "تعطل المورد أو الشحن",
+    "title_en": "Supply disruption",
+    "groups": [
+      "logistics",
+      "exports",
+      "costs"
+    ],
+    "inputs_ar": [
+      "مورد أو مسار بديل",
+      "مدة التأخير",
+      "هالك أو تكلفة شحن",
+      "مخزون الأمان",
+      "شرط تسليم"
+    ],
+    "output_ar": "تكلفة التأخير وأثره على النقد والقدرة على التسليم",
+    "evidence_ids": [
+      "eg-logistics-rail",
+      "eg-wits-trade",
+      "guide-cash-conversion"
+    ],
+    "caution_ar": "حدد المنتج والمسار؛ تقارير التجارة الوطنية لا تحدد مواعيد أو تعريفة شحنة بعينها."
+  },
+  {
+    "id": "currency",
+    "title_ar": "سعر الصرف والتعرض للعملة",
+    "title_en": "FX and currency exposure",
+    "groups": [
+      "costs",
+      "egypt",
+      "exports"
+    ],
+    "inputs_ar": [
+      "العملات حسب البند",
+      "نسبة التعرض",
+      "نسبة تمرير الصدمة",
+      "الفترة وسعر الأساس"
+    ],
+    "output_ar": "أثر العملة على التكلفة والهامش والسيولة",
+    "evidence_ids": [
+      "eg-cbe-exchange",
+      "eg-imf-macro-2026"
+    ],
+    "caution_ar": "عملة العرض مش هي نسبة التعرض؛ افصل الإيرادات والتكاليف والديون المعرّضة."
+  },
+  {
+    "id": "inflation",
+    "title_ar": "زيادة أسعار المدخلات والتضخم",
+    "title_en": "Inflation and input prices",
+    "groups": [
+      "costs",
+      "egypt",
+      "food"
+    ],
+    "inputs_ar": [
+      "الإنفاق حسب البند",
+      "نسبة تغير كل مدخل",
+      "قدرة تعديل سعر البيع",
+      "الفترة"
+    ],
+    "output_ar": "حساسية الهامش والسيولة",
+    "evidence_ids": [
+      "eg-cbe-inflation",
+      "eg-imf-macro-2026"
+    ],
+    "caution_ar": "سلة مؤشر المستهلك غير سلة تكلفة الشركة. اطلب مدخلات مناسبة."
+  },
+  {
+    "id": "interest",
+    "title_ar": "رفع الفائدة على دين قائم",
+    "title_en": "Interest-rate changes",
+    "groups": [
+      "finance",
+      "costs"
+    ],
+    "inputs_ar": [
+      "الرصيد",
+      "فائدة ثابتة أو متغيرة",
+      "سعر عقد ومواعيد إعادة تسعير",
+      "جدول السداد"
+    ],
+    "output_ar": "الفوائد ومواعيد خدمة الدين",
+    "evidence_ids": [
+      "eg-cbe-interest",
+      "eg-wdi-lending"
+    ],
+    "caution_ar": "الصدمة تطبق حسب عقد الدين. مؤشر البلد سياق للمقارنة."
+  },
+  {
+    "id": "loan",
+    "title_ar": "قرض أو تمويل رأس مال عامل",
+    "title_en": "Debt and working-capital finance",
+    "groups": [
+      "finance",
+      "working-capital"
+    ],
+    "inputs_ar": [
+      "أصل الدين",
+      "الفائدة",
+      "الرسوم",
+      "مواعيد السداد",
+      "هدف التمويل"
+    ],
+    "output_ar": "أثر خدمة الدين وفجوة السيولة وسيناريو ضغط",
+    "evidence_ids": [
+      "eg-microfinance-rct",
+      "eg-wbes-2025",
+      "mena-morocco-microcredit"
+    ],
+    "caution_ar": "سؤال البنك عن الشروط خاص به؛ البحث التجريبي يوضح أثر البرنامج المدروس."
+  },
+  {
+    "id": "equity",
+    "title_ar": "استثمار جريء أو حصة جديدة",
+    "title_en": "Equity funding and dilution",
+    "groups": [
+      "finance",
+      "innovation"
+    ],
+    "inputs_ar": [
+      "المبلغ",
+      "توقيت الإغلاق",
+      "التقييم قبل الجولة",
+      "جدول الملكية وحقوق المستثمر"
+    ],
+    "output_ar": "أثر السيولة والحصص تحت شروط محددة",
+    "evidence_ids": [
+      "eg-itida-ecosystem-2026",
+      "int-nigeria-grants"
+    ],
+    "caution_ar": "وجود تمويل في السوق لا يقدّر فرصة إغلاق جولة تمويل."
+  },
+  {
+    "id": "capex",
+    "title_ar": "معدات جديدة أو أصل ثابت",
+    "title_en": "Capex and equipment",
+    "groups": [
+      "manufacturing",
+      "productivity",
+      "finance"
+    ],
+    "inputs_ar": [
+      "تكلفة الشراء والتركيب",
+      "الجدول",
+      "الإنتاج والطاقة",
+      "تكلفة الصيانة",
+      "مدة الاستخدام"
+    ],
+    "output_ar": "التعادل النقدي وحساسية فترة الاسترداد",
+    "evidence_ids": [
+      "int-india-management",
+      "guide-cash-dashboard"
+    ],
+    "caution_ar": "وفّر مسار المرحلة الحالية ومسار الاستثمار. راجع العمر, الإنتاج المفترض والتأخير."
+  },
+  {
+    "id": "branch",
+    "title_ar": "فتح فرع أو التوسع لمنطقة جديدة",
+    "title_en": "New branch and local expansion",
+    "groups": [
+      "retail",
+      "tourism",
+      "real-estate",
+      "food"
+    ],
+    "inputs_ar": [
+      "سعر الإيجار",
+      "مدة التجهيز",
+      "عدد الزيارات",
+      "معدل التحويل",
+      "متوسط الفاتورة",
+      "مصروفات تشغيل"
+    ],
+    "output_ar": "مبيعات التعادل والتمويل اللازم قبل الإطلاق",
+    "evidence_ids": [
+      "eg-capmas-population",
+      "eg-oecd-young-firms-2026",
+      "guide-financial-ratios",
+      "food-location-demand",
+      "food-break-even",
+      "eg-mped-activity-2026"
+    ],
+    "caution_ar": "المتوسطات الوطنية لا تصف حيًا معينًا. اطلب منطقة ومنتجًا وبحث ميدانيًا."
+  },
+  {
+    "id": "market-size",
+    "title_ar": "حجم السوق والطلب والمنافسة",
+    "title_en": "Market sizing and demand",
+    "groups": [
+      "egypt",
+      "retail",
+      "innovation"
+    ],
+    "inputs_ar": [
+      "مكان",
+      "منتج",
+      "فئة عميل",
+      "سعر",
+      "وحدة السوق",
+      "الفترة"
+    ],
+    "output_ar": "أدلة السوق وعناصر حساب الحجم وافتراضاته",
+    "evidence_ids": [
+      "eg-gem-entrepreneurship",
+      "eg-capmas-population",
+      "eg-itida-ecosystem-2026",
+      "eg-wbes-2025"
+    ],
+    "caution_ar": "فرّق بين حجم السكان والعملاء المؤهلين والعملاء المتوقع الوصول إليهم."
+  },
+  {
+    "id": "seasonality",
+    "title_ar": "الموسمية والمواسم المزدحمة",
+    "title_en": "Seasonality and peaks",
+    "groups": [
+      "tourism",
+      "retail",
+      "agriculture"
+    ],
+    "inputs_ar": [
+      "مبيعات وتحصيل عبر الشهور",
+      "الموسم المستهدف",
+      "المخزون أو الطاقة",
+      "توقيت التسوية"
+    ],
+    "output_ar": "تركيز البيع والطلب على النقد خلال الذروة",
+    "evidence_ids": [
+      "eg-tourism-oecd",
+      "guide-cash-dashboard"
+    ],
+    "caution_ar": "الموسم القومي أو إجازة لا يثبت شكل الطلب لشركة. افصل قيم العام السابق عن توقع هذا العام."
+  },
+  {
+    "id": "exports",
+    "title_ar": "اختبار قناة تصدير أو سوق خارجي",
+    "title_en": "Export market entry",
+    "groups": [
+      "exports",
+      "logistics",
+      "textile"
+    ],
+    "inputs_ar": [
+      "السوق والمنتج",
+      "تكلفة الوحدة والشحن",
+      "نسبة المرتجعات",
+      "العملة",
+      "القناة",
+      "رسوم موثقة"
+    ],
+    "output_ar": "هامش بعد التكاليف وجدوى دفعة تجريبية",
+    "evidence_ids": [
+      "eg-export-rct",
+      "eg-wits-trade"
+    ],
+    "caution_ar": "بيانات التجارة تعرّف التدفق والسوق. نتيجة تجربة منتجي السجاد خاصة بظروفها."
+  },
+  {
+    "id": "import-substitution",
+    "title_ar": "اختبار مورد محلي بدل المستورد",
+    "title_en": "Import substitution",
+    "groups": [
+      "manufacturing",
+      "food",
+      "logistics",
+      "costs"
+    ],
+    "inputs_ar": [
+      "سعر وشروط الموردين",
+      "جودة ومدة توريد",
+      "نسبة هالك",
+      "FX",
+      "حد التوريد"
+    ],
+    "output_ar": "كلفة الوحدة المعدلة وحساسية السيولة والشحن",
+    "evidence_ids": [
+      "eg-wits-trade",
+      "eg-logistics-rail",
+      "eg-cbe-exchange"
+    ],
+    "caution_ar": "اختبر فرق الجودة والطاقة ومواعيد التوفر بجانب السعر."
+  },
+  {
+    "id": "hiring",
+    "title_ar": "توظيف أو زيادة مرتبات",
+    "title_en": "Hiring and wage changes",
+    "groups": [
+      "hiring",
+      "productivity"
+    ],
+    "inputs_ar": [
+      "المرتبات والتكلفة الكلية",
+      "الفترة",
+      "الحجم الإضافي الممكن",
+      "وقت بدء الإنتاج"
+    ],
+    "output_ar": "نقطة التعادل بالوحدات وتغير الحرق",
+    "evidence_ids": [
+      "eg-cbe-inflation",
+      "eg-oecd-young-firms-2026"
+    ],
+    "caution_ar": "العمالة الجديدة لا تحقق إنتاجية فورية؛ استخدم تدريجًا يعتمد على الدور."
+  },
+  {
+    "id": "training",
+    "title_ar": "تدريب المؤسسين أو الموظفين",
+    "title_en": "Founder and employee training",
+    "groups": [
+      "training",
+      "productivity"
+    ],
+    "inputs_ar": [
+      "نوع التدريب",
+      "الشريحة",
+      "التكلفة والوقت",
+      "النتيجة التي ستقاس",
+      "أفق القياس"
+    ],
+    "output_ar": "تصميم تجربة وقياس النتائج في أوقات مختلفة",
+    "evidence_ids": [
+      "int-togo-initiative",
+      "int-togo-initiative-followup",
+      "mena-tunisia-training-followup"
+    ],
+    "caution_ar": "اختيار تدريب معين يحتاج مقارنة العينة والفترة. استخدم المتابعات لنفس الدراسة كعائلة واحدة."
+  },
+  {
+    "id": "automation",
+    "title_ar": "أتمتة أو تحول رقمي",
+    "title_en": "Automation and digitization",
+    "groups": [
+      "software",
+      "telecom",
+      "productivity"
+    ],
+    "inputs_ar": [
+      "عملية محددة",
+      "وقت وتكلفة حالية",
+      "تكلفة تنفيذ واستخدام",
+      "الطاقة والجودة",
+      "وقت التعلم"
+    ],
+    "output_ar": "زمن الاسترداد وسيناريو تبنّي منخفض",
+    "evidence_ids": [
+      "eg-erf-digital-adoption",
+      "eg-ict-bulletin",
+      "int-india-management"
+    ],
+    "caution_ar": "الوفورات تتعلق بتبني الحل فعليًا وجودة تنفيذه."
+  },
+  {
+    "id": "acquisition",
+    "title_ar": "الإعلانات واكتساب العملاء",
+    "title_en": "Marketing and acquisition",
+    "groups": [
+      "marketing",
+      "ecommerce",
+      "retail"
+    ],
+    "inputs_ar": [
+      "إنفاق قابل للتتبع",
+      "العملاء الجدد",
+      "حصة هامش المساهمة",
+      "مدة القياس"
+    ],
+    "output_ar": "CAC وهامش وتقييم اختبار القناة",
+    "evidence_ids": [
+      "int-ab-testing",
+      "int-marketing-training"
+    ],
+    "caution_ar": "افصل التحويل الإضافي من التحويل اللي كان هيحصل طبيعيًا، وتتبع النتائج حسب القناة."
+  },
+  {
+    "id": "retention",
+    "title_ar": "التسرب والاشتراك المتكرر",
+    "title_en": "Retention and subscription churn",
+    "groups": [
+      "software",
+      "ecommerce",
+      "marketing"
+    ],
+    "inputs_ar": [
+      "العملاء أول الفترة",
+      "الفاقد",
+      "تجديد خط الأساس",
+      "القيمة والهامش",
+      "المجموعات الزمنية"
+    ],
+    "output_ar": "تغير الإيراد المتكرر والهامش حسب المجموعات",
+    "evidence_ids": [
+      "int-retention-uplift",
+      "int-camuffo-rct",
+      "int-ab-testing"
+    ],
+    "caution_ar": "لا تستخدم ثابت بقاء بدون تاريخ. فرّق بين تسرب العملاء وتسرب الإيراد."
+  },
+  {
+    "id": "unit-economics",
+    "title_ar": "هامش الوحدة وتكلفة الوحدة",
+    "title_en": "Unit economics and contribution",
+    "groups": [
+      "pricing",
+      "costs",
+      "working-capital"
+    ],
+    "inputs_ar": [
+      "سعر صافي",
+      "تكلفة مباشرة",
+      "رسوم الدفع والشحن",
+      "مرتجعات",
+      "عدد الوحدات أو العملاء"
+    ],
+    "output_ar": "هامش المساهمة ومبيعات التعادل",
+    "evidence_ids": [
+      "guide-financial-ratios",
+      "int-ab-testing"
+    ],
+    "caution_ar": "عرف الوحدة بحسب القطاع واستبعد التحويلات بين البنود مرتين."
+  },
+  {
+    "id": "new-product",
+    "title_ar": "إطلاق منتج وتجربة الفرضيات",
+    "title_en": "Product launch and hypothesis testing",
+    "groups": [
+      "innovation",
+      "marketing"
+    ],
+    "inputs_ar": [
+      "شريحة",
+      "فرضية",
+      "مقياس نجاح",
+      "مدة",
+      "ميزانية",
+      "شرط إيقاف أو توسيع"
+    ],
+    "output_ar": "تصميم اختبار وقرار متابعة لو النتيجة اتحققت",
+    "evidence_ids": [
+      "int-camuffo-rct",
+      "int-ab-testing"
+    ],
+    "caution_ar": "مقياس النجاح لازم يتحدد قبل الاختبار؛ اربط زيارة الموقع أو التحويل بهدف تجاري."
+  },
+  {
+    "id": "formalization",
+    "title_ar": "التسجيل والتراخيص",
+    "title_en": "Registration and licensing",
+    "groups": [
+      "formalization",
+      "egypt"
+    ],
+    "inputs_ar": [
+      "نشاط",
+      "مكان",
+      "كيان",
+      "ترخيص أو خطوة",
+      "تاريخ سريان"
+    ],
+    "output_ar": "قائمة نقاط تحقق ومصدر رسمي حديث",
+    "evidence_ids": [
+      "eg-gafi-investor",
+      "eg-oecd-sme-2025",
+      "eg-fra-nonbank",
+      "eg-pharma-eda"
+    ],
+    "caution_ar": "النشاط والمكان يغيران المطلوب. راجع الجهة الرسمية في تاريخ السؤال."
+  },
+  {
+    "id": "tax",
+    "title_ar": "تغير ضريبة أو رسوم",
+    "title_en": "Taxes and official fees",
+    "groups": [
+      "formalization",
+      "egypt",
+      "costs"
+    ],
+    "inputs_ar": [
+      "جهة ضريبية",
+      "نوع النشاط والمكلف",
+      "المصدر الحالي",
+      "التاريخ",
+      "وعاء الرسم"
+    ],
+    "output_ar": "أثر مشروط بمعدل أو رسم تم التحقق منه",
+    "evidence_ids": [
+      "eg-eta-tax",
+      "eg-gafi-investor"
+    ],
+    "caution_ar": "لا تستخدم رقمًا عامًا كنسبة ضريبية نافذة. صعّد الحالات غير الواضحة لمختص."
+  },
+  {
+    "id": "climate",
+    "title_ar": "حرارة أو مياه أو فيضانات",
+    "title_en": "Climate and resource stress",
+    "groups": [
+      "climate",
+      "water",
+      "agriculture",
+      "manufacturing"
+    ],
+    "inputs_ar": [
+      "الموقع",
+      "الموسم",
+      "ساعات أو كمية التعطل",
+      "مصدر بديل",
+      "تكلفة وحساسية التشغيل"
+    ],
+    "output_ar": "أثر الساعات الضائعة والطاقة وتكلفة تخفيف الخطر",
+    "evidence_ids": [
+      "eg-climate-ccdr",
+      "eg-fao-agriculture",
+      "eg-energy-iea"
+    ],
+    "caution_ar": "تقرير البلد يؤطر الخطر. التعرض والتكلفة على مستوى الموقع يحتاجان بيانات العميل."
+  },
+  {
+    "id": "energy",
+    "title_ar": "تعريفة الكهرباء وانقطاعها",
+    "title_en": "Power tariffs and outages",
+    "groups": [
+      "energy",
+      "costs",
+      "manufacturing"
+    ],
+    "inputs_ar": [
+      "فئة التعريفة والموعد",
+      "كيلووات ساعة",
+      "ساعات القطع",
+      "تكلفة البديل",
+      "فاقد الإنتاج"
+    ],
+    "output_ar": "فاتورة وحساسية تكلفة التعطل",
+    "evidence_ids": [
+      "eg-energy-tariff",
+      "eg-energy-iea",
+      "eg-wbes-2025"
+    ],
+    "caution_ar": "احسب الرسوم والشرائح حسب فئة العميل في التاريخ المناسب."
+  },
+  {
+    "id": "failure-risk",
+    "title_ar": "تعثر مالي وإفلاس",
+    "title_en": "Financial distress and insolvency",
+    "groups": [
+      "risk",
+      "finance"
+    ],
+    "inputs_ar": [
+      "قوائم مؤكدة",
+      "تعريف نسب",
+      "أفق التوقع",
+      "modelling tier صالح"
+    ],
+    "output_ar": "مؤشر النموذج والقيود وحساسية السيناريو",
+    "evidence_ids": [
+      "guide-financial-ratios",
+      "guide-cash-dashboard"
+    ],
+    "caution_ar": "خصائص عينات Poland ليست احتمال إفلاس معتمد لشركة مصرية. ربط الأثر المالي بافتراضات صريحة."
+  },
+  {
+    "id": "digital-payments",
+    "title_ar": "قبول المدفوعات الرقمية",
+    "title_en": "Digital payments adoption",
+    "groups": [
+      "fintech",
+      "retail",
+      "ecommerce"
+    ],
+    "inputs_ar": [
+      "رسوم قبول ودورة تسوية",
+      "مزيج طرق الدفع",
+      "مرتجعات",
+      "احتيال تاريخي",
+      "حجم مبيعات"
+    ],
+    "output_ar": "هامش وسيولة وتغير الاستخدام عند تجربة قناة",
+    "evidence_ids": [
+      "int-kenya-mobile-payments",
+      "eg-findex-2025",
+      "eg-fintech-landscape",
+      "eg-fra-nonbank"
+    ],
+    "caution_ar": "استخدام المستهلكين في المسح سياق، وتبنّي المحل أو مزود الدفع يحتاج بيانات أو تجربة."
+  },
+  {
+    "id": "waste",
+    "title_ar": "تقليل الفاقد أو إعادة التدوير",
+    "title_en": "Waste reduction and circularity",
+    "groups": [
+      "waste",
+      "food",
+      "manufacturing"
+    ],
+    "inputs_ar": [
+      "كمية خام وتالف",
+      "تكلفة التخلص والنقل",
+      "قيمة إعادة البيع",
+      "التجهيز",
+      "التشريعات المحلية"
+    ],
+    "output_ar": "التكلفة الصافية لكل وحدة أو طن",
+    "evidence_ids": [
+      "eg-waste-un",
+      "eg-fao-agriculture",
+      "eg-climate-ccdr"
+    ],
+    "caution_ar": "فرّق بين اقتصاديات عائد التخلص والبيع، وتحقق من مواصفات المشتري أو الالتزام."
+  }
+]

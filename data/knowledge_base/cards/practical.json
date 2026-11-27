@@ -1,0 +1,47 @@
+[
+  {
+    "id": "guide-cash-conversion",
+    "kind": "practice",
+    "regions": ["GLOBAL"],
+    "year": null,
+    "scope": "General working-capital method; published by Business Development Bank of Canada",
+    "source": "https://www.bdc.ca/en/articles-tools/money-finance/manage-finances/how-boost-cash-flow",
+    "locator": "Cash conversion cycle; components and worked method",
+    "tags": ["cash_flow", "working_capital", "receivables", "inventory", "payables", "dso", "dpo", "سيولة", "تحصيل", "مخزون", "موردين"],
+    "title_ar": "لو قللت مدة التحصيل، ده يحسن الكاش إزاي؟",
+    "finding_ar": "دورة تحويل النقد بتربط أيام المخزون والتحصيل والدفع: أيام المخزون + أيام التحصيل − أيام دفع الموردين.",
+    "application_ar": "اعمل سيناريو يغير تواريخ قبض العملاء أو دفع الموردين وقارن أقل رصيد نقدي خلال الفترة. اعتمد على جدول المدفوعات أو افتراض أيام مؤكد.",
+    "limit_ar": "ده إطار حسابي. التقديم أو التأخير قد يغير الخصومات أو المبيعات أو علاقة الموردين، ولا يحول نفس الربح تلقائيًا إلى نقد في نفس اليوم.",
+    "text_en": "Cash conversion cycle equals inventory days plus receivable days minus payable days. Model timing impacts with firm schedules; the formula does not estimate sales, discount or supplier responses."
+  },
+  {
+    "id": "guide-cash-dashboard",
+    "kind": "practice",
+    "regions": ["GLOBAL"],
+    "year": null,
+    "scope": "Cash flow monitoring guidance for small businesses",
+    "source": "https://www.bdc.ca/en/articles-tools/money-finance/manage-finances/track-cash-flow-with-simple-dashboard",
+    "locator": "Cash flow dashboard; receivables and cash-flow monitoring",
+    "tags": ["cash_forecast", "buffer", "burn", "runway", "collections", "سيولة", "حرق", "متابعة", "تحصيل", "مصروفات"],
+    "title_ar": "إزاي أعرف لو الكاش هيقل قبل ميعاد التحصيل؟",
+    "finding_ar": "متابعة الكاش تحتاج تسجيل التدفقات المتوقعة ومواعيد قبض العملاء والمدفوعات، مع متابعة مؤشرات زي سرعة التحصيل.",
+    "application_ar": "اعرض صفًا لكل أسبوع فيه رصيد البداية والمقبوضات والمدفوعات ورصيد النهاية. اختبر تأخر دفعة كبيرة أو تقديم مصروف واقرأ أول أسبوع يحصل فيه عجز.",
+    "limit_ar": "التوقع يعتمد على مواعيد ومبالغ مؤكدة أو مفترضة. الإيراد المحاسبي لا يعني أن النقد دخل؛ والربح لا يساوي السيولة.",
+    "text_en": "Use cash-flow monitoring and receivables as inputs to a weekly forecast. Opening cash plus receipts minus disbursements gives ending cash; explicit collection assumptions drive the result."
+  },
+  {
+    "id": "guide-financial-ratios",
+    "kind": "practice",
+    "regions": ["GLOBAL"],
+    "year": null,
+    "scope": "General financial analysis guidance",
+    "source": "https://www.bdc.ca/en/articles-tools/money-finance/manage-finances/financial-ratios-4-ways-assess-business",
+    "locator": "Liquidity, efficiency, profitability and leverage ratios",
+    "tags": ["ratios", "liquidity", "margin", "leverage", "debt", "inventory", "سيولة", "نسب", "مديونية", "هامش", "نشاط"],
+    "title_ar": "أقارن أنهي نسب وأنا براجع أثر قرار مالي؟",
+    "finding_ar": "نسب السيولة والربحية والكفاءة والمديونية تقيس نواحي مختلفة، وتحتاج تفسيرًا في سياق تعريف النسبة والفترة وطبيعة الشركة.",
+    "application_ar": "اعرض النسب المتأثرة بالقرار مع وصف للبسط والمقام. اختبر هامش الربح والسيولة معًا لو القرار يخفض سعرًا أو يغير المخزون.",
+    "limit_ar": "مقارنات القطاعات تحتاج معايير مناسبة. النسبة منفردة أو مقارنتها بعينة أخرى لا تحدد احتمال إفلاس.",
+    "text_en": "Interpret liquidity, profitability, efficiency and leverage with consistent definitions, reporting dates and sector context. A single ratio cannot establish firm insolvency risk."
+  }
+]

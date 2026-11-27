@@ -1,0 +1,9 @@
+# Keep source line endings consistent across operating systems.
+* text=auto eol=lf
+
+# Preserve the bytes used by the knowledge base snapshot checksums.
+/data/knowledge_base/data/*.jsonl -text
+/data/knowledge_base/data/*.gz binary
+
+# Keep the original whitespace in the bundled font license.
+/rag/web/fonts/OFL.txt whitespace=-blank-at-eol

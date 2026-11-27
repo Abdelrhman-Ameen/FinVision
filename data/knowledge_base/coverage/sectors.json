@@ -1,0 +1,775 @@
+[
+  {
+    "id": "general",
+    "title_ar": "عام وكل الشركات",
+    "title_en": "Cross-sector",
+    "terms": [
+      "startup",
+      "company",
+      "شركة",
+      "مشروع"
+    ],
+    "evidence_ids": [
+      "eg-wbes-2025",
+      "eg-oecd-sme-2025",
+      "eg-itida-ecosystem-2026"
+    ],
+    "priority_scenarios": [
+      "runway",
+      "collections",
+      "price-change",
+      "currency",
+      "equity",
+      "branch",
+      "failure-risk"
+    ],
+    "sector_inputs_ar": [
+      "صافي الحرق وموعد العجز",
+      "القطاع والموقع",
+      "بيانات قوائم متسقة"
+    ]
+  },
+  {
+    "id": "agriculture",
+    "title_ar": "زراعة وإنتاج أولي",
+    "title_en": "Agriculture",
+    "terms": [
+      "agriculture",
+      "crops",
+      "farming",
+      "زراعة",
+      "محاصيل",
+      "مزارع"
+    ],
+    "evidence_ids": [
+      "eg-fao-agriculture",
+      "eg-climate-ccdr"
+    ],
+    "priority_scenarios": [
+      "climate",
+      "inventory",
+      "seasonality",
+      "supply-disruption",
+      "energy",
+      "exports"
+    ],
+    "sector_inputs_ar": [
+      "المحصول والموسم",
+      "الفدان ومصدر المياه",
+      "الإنتاج القابل للبيع ومعدلات الهالك"
+    ]
+  },
+  {
+    "id": "food",
+    "title_ar": "تصنيع وتوزيع الأغذية",
+    "title_en": "Food and beverage",
+    "terms": [
+      "food",
+      "processing",
+      "restaurant",
+      "cold",
+      "chain",
+      "غذاء",
+      "مطعم",
+      "دواجن",
+      "فراخ",
+      "fried chicken",
+      "تصنيع",
+      "غذائي"
+    ],
+    "evidence_ids": [
+      "eg-fao-agriculture",
+      "eg-wits-trade",
+      "eg-usda-grain-2026",
+      "eg-usda-food-retail-2026",
+      "eg-cbe-poultry-2026-10",
+      "eg-mped-activity-2026",
+      "food-menu-margin",
+      "food-standard-cost",
+      "food-break-even",
+      "food-location-demand"
+    ],
+    "priority_scenarios": [
+      "inventory",
+      "price-change",
+      "supply-disruption",
+      "waste",
+      "seasonality",
+      "branch"
+    ],
+    "sector_inputs_ar": [
+      "هامش الوجبة أو الكيلو",
+      "التبريد والتلف",
+      "صافي الإيراد بعد التوصيل والمرتجع"
+    ]
+  },
+  {
+    "id": "aquaculture",
+    "title_ar": "أسماك واستزراع مائي",
+    "title_en": "Fisheries and aquaculture",
+    "terms": [
+      "aquaculture",
+      "fish",
+      "farm",
+      "fishery",
+      "مزارع",
+      "سمك",
+      "استزراع",
+      "أسماك"
+    ],
+    "evidence_ids": [
+      "eg-fao-fish",
+      "eg-climate-ccdr"
+    ],
+    "priority_scenarios": [
+      "climate",
+      "inventory",
+      "supply-disruption",
+      "energy",
+      "exports",
+      "price-change"
+    ],
+    "sector_inputs_ar": [
+      "نوع السمك والأعلاف",
+      "معدلات نمو ونفوق",
+      "دورة الحوض والتجهيز للنقل"
+    ]
+  },
+  {
+    "id": "retail",
+    "title_ar": "تجارة تجزئة وجملة",
+    "title_en": "Retail and wholesale",
+    "terms": [
+      "retail",
+      "wholesale",
+      "grocery",
+      "shops",
+      "تجارة",
+      "تجزئة",
+      "سوبرماركت",
+      "محل"
+    ],
+    "evidence_ids": [
+      "eg-capmas-population",
+      "eg-wbes-2025"
+    ],
+    "priority_scenarios": [
+      "branch",
+      "promotion",
+      "inventory",
+      "collections",
+      "digital-payments",
+      "market-size"
+    ],
+    "sector_inputs_ar": [
+      "الزيارات والتحويل حسب المكان",
+      "هامش السلة",
+      "نفاد صنف ومبيعاته"
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "title_ar": "تجارة إلكترونية وأسواق رقمية",
+    "title_en": "E-commerce and marketplaces",
+    "terms": [
+      "ecommerce",
+      "marketplace",
+      "ecommerce",
+      "التجارة",
+      "الالكترونية",
+      "متجر",
+      "اونلاين"
+    ],
+    "evidence_ids": [
+      "eg-ecom-unctad",
+      "eg-findex-2025"
+    ],
+    "priority_scenarios": [
+      "acquisition",
+      "retention",
+      "inventory",
+      "digital-payments",
+      "supply-disruption",
+      "price-change"
+    ],
+    "sector_inputs_ar": [
+      "رسوم الدفع والتوصيل",
+      "هامش بعد المرتجعات",
+      "تحويل وتكرار الطلب حسب القناة"
+    ]
+  },
+  {
+    "id": "software",
+    "title_ar": "برمجيات وSaaS",
+    "title_en": "Software and SaaS",
+    "terms": [
+      "software",
+      "saas",
+      "app",
+      "subscription",
+      "برمجيات",
+      "تطبيق",
+      "اشتراك"
+    ],
+    "evidence_ids": [
+      "eg-ict-bulletin",
+      "eg-innovation-oecd"
+    ],
+    "priority_scenarios": [
+      "retention",
+      "price-change",
+      "acquisition",
+      "automation",
+      "new-product",
+      "equity"
+    ],
+    "sector_inputs_ar": [
+      "إيراد متكرر حسب المجموعة",
+      "تكلفة الدعم والبنية",
+      "تسرب العملاء والإيرادات"
+    ]
+  },
+  {
+    "id": "telecom",
+    "title_ar": "اتصالات وبنية رقمية",
+    "title_en": "Telecom and digital infrastructure",
+    "terms": [
+      "telecom",
+      "broadband",
+      "internet",
+      "broadband",
+      "اتصالات",
+      "انترنت",
+      "فايبر"
+    ],
+    "evidence_ids": [
+      "eg-ict-bulletin",
+      "eg-findex-2025"
+    ],
+    "priority_scenarios": [
+      "capex",
+      "automation",
+      "retention",
+      "energy",
+      "price-change",
+      "market-size"
+    ],
+    "sector_inputs_ar": [
+      "تكلفة الشبكة أو الاشتراك",
+      "التغطية وجودة الخدمة",
+      "فترة استرداد التجهيز"
+    ]
+  },
+  {
+    "id": "fintech",
+    "title_ar": "مدفوعات وتكنولوجيا مالية",
+    "title_en": "Fintech and financial services",
+    "terms": [
+      "payments",
+      "fintech",
+      "credit",
+      "lending",
+      "مدفوعات",
+      "تكنولوجيا",
+      "مالية",
+      "تمويل"
+    ],
+    "evidence_ids": [
+      "eg-fintech-landscape",
+      "eg-findex-2025",
+      "eg-fra-nonbank"
+    ],
+    "priority_scenarios": [
+      "digital-payments",
+      "formalization",
+      "acquisition",
+      "loan",
+      "equity",
+      "failure-risk"
+    ],
+    "sector_inputs_ar": [
+      "حجم معاملات ومزيج عملاء",
+      "رسوم وتسوية واحتيال",
+      "نوع المنتج والجهة المختصة"
+    ]
+  },
+  {
+    "id": "health",
+    "title_ar": "رعاية صحية وعيادات",
+    "title_en": "Health and care",
+    "terms": [
+      "health",
+      "clinic",
+      "diagnostics",
+      "insurance",
+      "عيادة",
+      "صحة",
+      "مستشفى",
+      "تحاليل"
+    ],
+    "evidence_ids": [
+      "eg-health-strategy",
+      "eg-wbes-2025"
+    ],
+    "priority_scenarios": [
+      "collections",
+      "capex",
+      "hiring",
+      "branch",
+      "formalization",
+      "price-change"
+    ],
+    "sector_inputs_ar": [
+      "مزيج جهات الدفع ووقت التعويض",
+      "عدد خدمات لكل مقدم",
+      "وقت الجهاز والمستهلكات"
+    ]
+  },
+  {
+    "id": "pharma",
+    "title_ar": "أدوية وأجهزة طبية",
+    "title_en": "Pharma and medical products",
+    "terms": [
+      "pharma",
+      "medicines",
+      "medtech",
+      "devices",
+      "أدوية",
+      "صيدلية",
+      "أجهزة",
+      "طبية"
+    ],
+    "evidence_ids": [
+      "eg-pharma-eda",
+      "eg-health-strategy",
+      "eg-wits-trade"
+    ],
+    "priority_scenarios": [
+      "formalization",
+      "supply-disruption",
+      "inventory",
+      "currency",
+      "energy",
+      "exports"
+    ],
+    "sector_inputs_ar": [
+      "فئة المنتج ومرحلة الإتاحة",
+      "مخزون قرب الانتهاء",
+      "استيراد ومواعيد الموافقات"
+    ]
+  },
+  {
+    "id": "education",
+    "title_ar": "تعليم وتدريب وتكنولوجيا تعليم",
+    "title_en": "Education, TVET and EdTech",
+    "terms": [
+      "tvet",
+      "education",
+      "edtech",
+      "training",
+      "تعليم",
+      "تدريب",
+      "مدرسة",
+      "كورسات"
+    ],
+    "evidence_ids": [
+      "eg-education-unesco",
+      "eg-ict-bulletin"
+    ],
+    "priority_scenarios": [
+      "new-product",
+      "price-change",
+      "training",
+      "hiring",
+      "seasonality",
+      "branch"
+    ],
+    "sector_inputs_ar": [
+      "تسجيل ودفع حسب الدفعة",
+      "إكمال ونتائج التعلّم",
+      "تكلفة مدرس أو فصل"
+    ]
+  },
+  {
+    "id": "tourism",
+    "title_ar": "سياحة وفنادق وضيافة",
+    "title_en": "Tourism and hospitality",
+    "terms": [
+      "hotel",
+      "tourism",
+      "hospitality",
+      "saison",
+      "سياحة",
+      "فندق",
+      "ضيافة",
+      "سفر"
+    ],
+    "evidence_ids": [
+      "eg-tourism-oecd",
+      "eg-capmas-population"
+    ],
+    "priority_scenarios": [
+      "seasonality",
+      "price-change",
+      "branch",
+      "currency",
+      "energy",
+      "collections"
+    ],
+    "sector_inputs_ar": [
+      "الإشغال والليالي المتاحة",
+      "متوسط سعر ليلة أو خدمة",
+      "الحجوزات والإلغاءات"
+    ]
+  },
+  {
+    "id": "logistics",
+    "title_ar": "لوجستيات ونقل بضائع",
+    "title_en": "Logistics and freight",
+    "terms": [
+      "logistics",
+      "shipping",
+      "port",
+      "trucking",
+      "شحن",
+      "لوجستيات",
+      "نقل",
+      "بضائع"
+    ],
+    "evidence_ids": [
+      "eg-logistics-rail",
+      "eg-wits-trade"
+    ],
+    "priority_scenarios": [
+      "supply-disruption",
+      "currency",
+      "collections",
+      "capex",
+      "energy",
+      "price-change"
+    ],
+    "sector_inputs_ar": [
+      "تكلفة الرحلة ونسبة الامتلاء",
+      "التأخر والبضاعة المتأثرة",
+      "وقود وتعريفة وشروط"
+    ]
+  },
+  {
+    "id": "manufacturing",
+    "title_ar": "تصنيع عام ومكونات",
+    "title_en": "Manufacturing",
+    "terms": [
+      "industry",
+      "manufacturing",
+      "factory",
+      "مصانع",
+      "تصنيع",
+      "إنتاج"
+    ],
+    "evidence_ids": [
+      "eg-cpsd-sectors",
+      "eg-wits-trade",
+      "eg-energy-tariff"
+    ],
+    "priority_scenarios": [
+      "energy",
+      "capex",
+      "import-substitution",
+      "inventory",
+      "cost-cut",
+      "exports"
+    ],
+    "sector_inputs_ar": [
+      "طاقة وخط الإنتاج",
+      "استخدام فعلي وهالك",
+      "تكلفة خام وتوقف لكل وحدة"
+    ]
+  },
+  {
+    "id": "textiles",
+    "title_ar": "منسوجات وملابس",
+    "title_en": "Textiles and apparel",
+    "terms": [
+      "textiles",
+      "fabrics",
+      "apparel",
+      "cotton",
+      "منسوجات",
+      "ملابس",
+      "أقمشة",
+      "قطن"
+    ],
+    "evidence_ids": [
+      "eg-textile-unido",
+      "eg-export-rct",
+      "eg-wits-trade"
+    ],
+    "priority_scenarios": [
+      "exports",
+      "supply-disruption",
+      "inventory",
+      "energy",
+      "capex",
+      "currency"
+    ],
+    "sector_inputs_ar": [
+      "طلبية ومعدل رفض",
+      "وقت التسليم",
+      "تكلفة خام وعمالة لكل مقاس"
+    ]
+  },
+  {
+    "id": "construction",
+    "title_ar": "بناء ومقاولات",
+    "title_en": "Construction and contracting",
+    "terms": [
+      "contracting",
+      "construction",
+      "infrastructure",
+      "بناء",
+      "مقاولات",
+      "إنشاء",
+      "عقود"
+    ],
+    "evidence_ids": [
+      "eg-housing-habitat",
+      "eg-wbes-2025"
+    ],
+    "priority_scenarios": [
+      "collections",
+      "payables",
+      "inflation",
+      "supply-disruption",
+      "formalization",
+      "energy"
+    ],
+    "sector_inputs_ar": [
+      "المستخلصات وآجالها",
+      "دفعات المواد والمقاولين",
+      "احتجاز وضمانات وتغير الأسعار"
+    ]
+  },
+  {
+    "id": "real-estate",
+    "title_ar": "عقارات وإسكان",
+    "title_en": "Real estate and housing",
+    "terms": [
+      "housing",
+      "rent",
+      "real",
+      "estate",
+      "عقارات",
+      "إسكان",
+      "إيجار"
+    ],
+    "evidence_ids": [
+      "eg-housing-habitat",
+      "eg-capmas-population"
+    ],
+    "priority_scenarios": [
+      "branch",
+      "market-size",
+      "collections",
+      "interest",
+      "capex",
+      "formalization"
+    ],
+    "sector_inputs_ar": [
+      "سعر المتر والإيجار",
+      "أجل التسويق والسداد",
+      "مساحة متاحة وتكلفة التطوير"
+    ]
+  },
+  {
+    "id": "energy",
+    "title_ar": "كهرباء وطاقة متجددة",
+    "title_en": "Energy and renewables",
+    "terms": [
+      "renewables",
+      "solar",
+      "electricity",
+      "energy",
+      "طاقة",
+      "شمسية",
+      "كهرباء"
+    ],
+    "evidence_ids": [
+      "eg-energy-iea",
+      "eg-energy-tariff",
+      "eg-climate-ccdr"
+    ],
+    "priority_scenarios": [
+      "energy",
+      "climate",
+      "capex",
+      "formalization",
+      "interest",
+      "currency"
+    ],
+    "sector_inputs_ar": [
+      "إنتاج واستهلاك بالكيلووات ساعة",
+      "تغير تعريفة وفقد",
+      "تكلفة البطارية والتمويل"
+    ]
+  },
+  {
+    "id": "water",
+    "title_ar": "مياه وري وصرف",
+    "title_en": "Water, irrigation and sanitation",
+    "terms": [
+      "water",
+      "wastewater",
+      "irrigation",
+      "مياه",
+      "صرف",
+      "ري"
+    ],
+    "evidence_ids": [
+      "eg-climate-ccdr",
+      "eg-fao-agriculture"
+    ],
+    "priority_scenarios": [
+      "climate",
+      "capex",
+      "energy",
+      "formalization",
+      "supply-disruption",
+      "cost-cut"
+    ],
+    "sector_inputs_ar": [
+      "كمية وجودة المياه",
+      "تعريفة ووحدة قياس",
+      "مصدر بديل وتوقف الموقع"
+    ]
+  },
+  {
+    "id": "waste",
+    "title_ar": "مخلفات وإعادة تدوير",
+    "title_en": "Waste and circular economy",
+    "terms": [
+      "recycling",
+      "waste",
+      "circular",
+      "المخلفات",
+      "نفايات",
+      "تدوير",
+      "فاقد"
+    ],
+    "evidence_ids": [
+      "eg-waste-un",
+      "eg-climate-ccdr"
+    ],
+    "priority_scenarios": [
+      "waste",
+      "supply-disruption",
+      "inventory",
+      "capex",
+      "branch",
+      "climate"
+    ],
+    "sector_inputs_ar": [
+      "مدخلات وطريقة فرز لكل طن",
+      "حد شراء ومواصفات",
+      "تكلفة النقل والتخلص"
+    ]
+  },
+  {
+    "id": "creative",
+    "title_ar": "إبداع وإعلام ومحتوى",
+    "title_en": "Creative and media",
+    "terms": [
+      "creative",
+      "media",
+      "content",
+      "digital",
+      "creator",
+      "محتوى",
+      "إعلام",
+      "فن",
+      "تصميم"
+    ],
+    "evidence_ids": [
+      "world-creative-unctad",
+      "eg-ict-bulletin"
+    ],
+    "priority_scenarios": [
+      "new-product",
+      "unit-economics",
+      "acquisition",
+      "market-size",
+      "retention",
+      "exports"
+    ],
+    "sector_inputs_ar": [
+      "مجموعة دخل لكل قناة",
+      "حصة منصة وحقوق",
+      "تحويل واحتفاظ الجمهور"
+    ]
+  },
+  {
+    "id": "business-services",
+    "title_ar": "خدمات أعمال وتعهيد",
+    "title_en": "Business services and outsourcing",
+    "terms": [
+      "bpo",
+      "outsourcing",
+      "consulting",
+      "services",
+      "تعهيد",
+      "خدمات",
+      "أعمال",
+      "خدمة",
+      "عملاء"
+    ],
+    "evidence_ids": [
+      "eg-ict-bulletin",
+      "eg-innovation-oecd"
+    ],
+    "priority_scenarios": [
+      "hiring",
+      "training",
+      "collections",
+      "exports",
+      "currency",
+      "retention"
+    ],
+    "sector_inputs_ar": [
+      "نسبة الساعات القابلة للفوترة",
+      "تكلفة فريق وانضمام",
+      "جدول العقود والدفع"
+    ]
+  },
+  {
+    "id": "mobility",
+    "title_ar": "تنقل وخدمات نقل داخل المدن",
+    "title_en": "Urban mobility",
+    "terms": [
+      "mobility",
+      "urban",
+      "transport",
+      "ride",
+      "sharing",
+      "تنقل",
+      "مواصلات",
+      "نقل",
+      "ذكي"
+    ],
+    "evidence_ids": [
+      "eg-mobility-transport",
+      "eg-capmas-population"
+    ],
+    "priority_scenarios": [
+      "energy",
+      "price-change",
+      "capex",
+      "branch",
+      "market-size",
+      "formalization"
+    ],
+    "sector_inputs_ar": [
+      "رحلات وتسعير وإشغال",
+      "وقود أو شحن",
+      "عدد ساعات ومركبات قابلة للتشغيل"
+    ]
+  }
+]
