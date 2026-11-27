@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-11-20",
+  "repository_policy": "https://www.worldbank.org/ext/en/legal/terms-conditions/open-knowledge-repository",
+  "publication_count": 10604,
+  "egypt_publications": 256,
+  "indexed_egypt_publications": 204,
+  "indexed_publications": 10112,
+  "evidence_records": 12390,
+  "full_text_publications": 72,
+  "evidence_kinds": {
+    "licensed_abstract": 10112,
+    "licensed_passage": 2278
+  },
+  "search_requests": 499,
+  "incomplete_queries": [],
+  "snapshot_sha256": {
+    "publications.jsonl": "31b672d2957acadf998851a8eba9f94638814739d27f2a20163fd3f23f74ea9d",
+    "publication_passages.jsonl.gz": "8374001ce13854849f5c3774ba9c5b5363238218b96c220ebb47b525bfb165d0"
+  }
+}

@@ -1,0 +1,461 @@
+[
+  {
+    "id": "v2-01",
+    "sector": "agriculture",
+    "scenario": "climate",
+    "question": "عندي مزرعة في الدلتا. قلة مياه الري في الصيف ممكن تقلل إنتاج المحصول ازاي؟",
+    "evidence_ids": [
+      "eg-fao-agriculture",
+      "eg-climate-ccdr"
+    ],
+    "should_avoid": "تقرير البلد يؤطر الخطر. التعرض والتكلفة على مستوى الموقع يحتاجان بيانات العميل."
+  },
+  {
+    "id": "v2-02",
+    "sector": "food",
+    "scenario": "waste",
+    "question": "مصنع أكل جاهز عامل فاقد في التبريد والتخزين، ايه البيانات اللي أقيسها قبل ما أغير نظام التبريد؟",
+    "evidence_ids": [
+      "eg-fao-agriculture",
+      "eg-waste-un"
+    ],
+    "should_avoid": "فرّق بين اقتصاديات عائد التخلص والبيع، وتحقق من مواصفات المشتري أو الالتزام."
+  },
+  {
+    "id": "v2-03",
+    "sector": "aquaculture",
+    "scenario": "inventory",
+    "question": "عندي استزراع سمكي وعايز أعرف تأثير سعر العلف ونفوق السمك على الربحية",
+    "evidence_ids": [
+      "eg-fao-fish"
+    ],
+    "should_avoid": "أثر خفض المخزون على المبيعات وخدمة العميل يحتاج افتراضًا أو قياسًا خاصًا بنشاطه."
+  },
+  {
+    "id": "v2-04",
+    "sector": "retail",
+    "scenario": "branch",
+    "question": "بفكر أفتح محل تجزئة في حي شعبي في القاهرة. فيه تعداد أو عدد منشآت يساعد أختار المكان؟",
+    "evidence_ids": [
+      "eg-capmas-population"
+    ],
+    "should_avoid": "المتوسطات الوطنية لا تصف حيًا معينًا. اطلب منطقة ومنتجًا وبحث ميدانيًا."
+  },
+  {
+    "id": "v2-05",
+    "sector": "ecommerce",
+    "scenario": "digital-payments",
+    "question": "عندي متجر أونلاين في مصر. لو ضفت محفظة رقمية بجانب الدفع عند الاستلام أعرف منين هتفيد؟",
+    "evidence_ids": [
+      "eg-findex-2025",
+      "eg-ecom-unctad",
+      "eg-fintech-landscape"
+    ],
+    "should_avoid": "استخدام المستهلكين في المسح سياق، وتبنّي المحل أو مزود الدفع يحتاج بيانات أو تجربة."
+  },
+  {
+    "id": "v2-06",
+    "sector": "software",
+    "scenario": "retention",
+    "question": "I'm a SaaS founder in Egypt. How do I test if a product change reduces churn and improves retention?",
+    "evidence_ids": [
+      "int-retention-uplift",
+      "int-ab-testing",
+      "int-camuffo-rct"
+    ],
+    "should_avoid": "لا تستخدم ثابت بقاء بدون تاريخ. فرّق بين تسرب العملاء وتسرب الإيراد."
+  },
+  {
+    "id": "v2-07",
+    "sector": "telecom",
+    "scenario": "capex",
+    "question": "عشان أقرر أستثمر في شبكة انترنت لمنطقة جديدة، ايه الفرق بين عدد الاشتراكات وانتشار الانترنت في مصر؟",
+    "evidence_ids": [
+      "eg-ict-bulletin"
+    ],
+    "should_avoid": "وفّر مسار المرحلة الحالية ومسار الاستثمار. راجع العمر, الإنتاج المفترض والتأخير."
+  },
+  {
+    "id": "v2-08",
+    "sector": "fintech",
+    "scenario": "formalization",
+    "question": "عايز أراجع ترخيص شركة تخصيم في مصر وأفهم نشاط التمويل غير المصرفي",
+    "evidence_ids": [
+      "eg-fra-nonbank"
+    ],
+    "should_avoid": "النشاط والمكان يغيران المطلوب. راجع الجهة الرسمية في تاريخ السؤال."
+  },
+  {
+    "id": "v2-09",
+    "sector": "health",
+    "scenario": "collections",
+    "question": "عيادة عندها مدفوعات التأمين بتتأخر. ازاي أفصل التأمين عن الدفع المباشر في التدفق النقدي؟",
+    "evidence_ids": [
+      "eg-health-strategy",
+      "guide-cash-conversion",
+      "guide-cash-dashboard"
+    ],
+    "should_avoid": "فرّق بين تغيير توقيت القبض وخسارة الفاتورة."
+  },
+  {
+    "id": "v2-10",
+    "sector": "pharma",
+    "scenario": "formalization",
+    "question": "عايز مصدر رسمي عن تسجيل أجهزة طبية في مصر وشغل هيئة الدواء",
+    "evidence_ids": [
+      "eg-pharma-eda"
+    ],
+    "should_avoid": "النشاط والمكان يغيران المطلوب. راجع الجهة الرسمية في تاريخ السؤال."
+  },
+  {
+    "id": "v2-11",
+    "sector": "education",
+    "scenario": "new-product",
+    "question": "عايز أفتح مركز تعليم فني وتدريب مهني. ايه المصدر اللي فيه هيكل التعليم الفني في مصر؟",
+    "evidence_ids": [
+      "eg-education-unesco"
+    ],
+    "should_avoid": "مقياس النجاح لازم يتحدد قبل الاختبار؛ اربط زيارة الموقع أو التحويل بهدف تجاري."
+  },
+  {
+    "id": "v2-12",
+    "sector": "tourism",
+    "scenario": "seasonality",
+    "question": "ازاي أفهم سياحة مصر وأعرف إشغال الفندق لو الوافدين زادوا في موسم الشتاء؟",
+    "evidence_ids": [
+      "eg-tourism-oecd"
+    ],
+    "should_avoid": "الموسم القومي أو إجازة لا يثبت شكل الطلب لشركة. افصل قيم العام السابق عن توقع هذا العام."
+  },
+  {
+    "id": "v2-13",
+    "sector": "logistics",
+    "scenario": "supply-disruption",
+    "question": "لو هننقل شحن بضائع بين القاهرة والإسكندرية بعد توقف مسار، فيه معلومات عن السكة الحديد والمواني؟",
+    "evidence_ids": [
+      "eg-logistics-rail"
+    ],
+    "should_avoid": "حدد المنتج والمسار؛ تقارير التجارة الوطنية لا تحدد مواعيد أو تعريفة شحنة بعينها."
+  },
+  {
+    "id": "v2-14",
+    "sector": "manufacturing",
+    "scenario": "energy",
+    "question": "ازاي أعمل حساب فاتورة كهرباء مصنع في مصر حسب الشريحة والتعريفة؟",
+    "evidence_ids": [
+      "eg-energy-tariff"
+    ],
+    "should_avoid": "احسب الرسوم والشرائح حسب فئة العميل في التاريخ المناسب."
+  },
+  {
+    "id": "v2-15",
+    "sector": "textiles",
+    "scenario": "exports",
+    "question": "مصنع ملابس مصرية بيفكر في تصدير طلبية صغيرة. هل في بحث مصري عن أثر التصدير على الجودة والربح؟",
+    "evidence_ids": [
+      "eg-export-rct",
+      "eg-textile-unido"
+    ],
+    "should_avoid": "بيانات التجارة تعرّف التدفق والسوق. نتيجة تجربة منتجي السجاد خاصة بظروفها."
+  },
+  {
+    "id": "v2-16",
+    "sector": "construction",
+    "scenario": "payables",
+    "question": "أنا مقاول والمستخلصات بتتأخر، لو أجلت دفعات الموردين شهر ده هيغير ايه في الكاش؟",
+    "evidence_ids": [
+      "guide-cash-conversion",
+      "guide-cash-dashboard"
+    ],
+    "should_avoid": "راجع ما إذا كان تغيير الآجال يضيع خصمًا أو يرفع التكلفة."
+  },
+  {
+    "id": "v2-17",
+    "sector": "real-estate",
+    "scenario": "market-size",
+    "question": "ايه مصدر عن سوق الإسكان والأرض والتمويل العقاري في مصر؟",
+    "evidence_ids": [
+      "eg-housing-habitat"
+    ],
+    "should_avoid": "فرّق بين حجم السكان والعملاء المؤهلين والعملاء المتوقع الوصول إليهم."
+  },
+  {
+    "id": "v2-18",
+    "sector": "energy",
+    "scenario": "energy",
+    "question": "عايز أعرف منين أجيب مزيج توليد الكهرباء والطاقة المتجددة في مصر قبل دراسة الطاقة الشمسية",
+    "evidence_ids": [
+      "eg-energy-iea"
+    ],
+    "should_avoid": "احسب الرسوم والشرائح حسب فئة العميل في التاريخ المناسب."
+  },
+  {
+    "id": "v2-19",
+    "sector": "water",
+    "scenario": "climate",
+    "question": "هل فيه تقرير عن المياه والري والجفاف في مصر ينفع لدراسة مورد مياه بديل؟",
+    "evidence_ids": [
+      "eg-climate-ccdr",
+      "eg-fao-agriculture"
+    ],
+    "should_avoid": "تقرير البلد يؤطر الخطر. التعرض والتكلفة على مستوى الموقع يحتاجان بيانات العميل."
+  },
+  {
+    "id": "v2-20",
+    "sector": "waste",
+    "scenario": "waste",
+    "question": "شركة تدوير مخلفات عايزة تقيس تكلفة الفرز والنقل والتخلص لكل طن. فيه سياق مصري عن الاقتصاد الدائري؟",
+    "evidence_ids": [
+      "eg-waste-un"
+    ],
+    "should_avoid": "فرّق بين اقتصاديات عائد التخلص والبيع، وتحقق من مواصفات المشتري أو الالتزام."
+  },
+  {
+    "id": "v2-21",
+    "sector": "creative",
+    "scenario": "unit-economics",
+    "question": "What definitions should an Egyptian creative media company use for creative goods and services exports?",
+    "evidence_ids": [
+      "world-creative-unctad"
+    ],
+    "should_avoid": "عرف الوحدة بحسب القطاع واستبعد التحويلات بين البنود مرتين."
+  },
+  {
+    "id": "v2-22",
+    "sector": "business-services",
+    "scenario": "exports",
+    "question": "ايه البيانات اللي تفيدني في سوق خدمات التعهيد والاتصالات في مصر قبل تصدير خدمات الدعم؟",
+    "evidence_ids": [
+      "eg-ict-bulletin",
+      "eg-innovation-oecd"
+    ],
+    "should_avoid": "بيانات التجارة تعرّف التدفق والسوق. نتيجة تجربة منتجي السجاد خاصة بظروفها."
+  },
+  {
+    "id": "v2-23",
+    "sector": "mobility",
+    "scenario": "capex",
+    "question": "لو هستثمر في أسطول نقل جوه القاهرة هل فيه معلومات عن الحافلات والتنقل والطاقة؟",
+    "evidence_ids": [
+      "eg-mobility-transport"
+    ],
+    "should_avoid": "وفّر مسار المرحلة الحالية ومسار الاستثمار. راجع العمر, الإنتاج المفترض والتأخير."
+  },
+  {
+    "id": "v2-24",
+    "sector": "general",
+    "scenario": "runway",
+    "question": "عندي نقد ومقبوضات ومدفوعات بتتغير. ازاي أحسب أول أسبوع يحصل فيه عجز بدل ما أقسم الرصيد على الحرق؟",
+    "evidence_ids": [
+      "guide-cash-dashboard",
+      "int-us-cash-buffer"
+    ],
+    "should_avoid": "حساب تاريخ نفاد النقد من الجدول يتعامل مع المدفوعات المتقطعة أفضل من قسمة مباشرة عند تقلب الحرق."
+  },
+  {
+    "id": "v2-25",
+    "sector": "retail",
+    "scenario": "promotion",
+    "question": "لو زودت الخصومات في محل تجزئة، ازاي أشوف عدد الوحدات اللي لازم أبيعها عشان أعوّض الخصم؟",
+    "evidence_ids": [
+      "int-price-experiment",
+      "guide-financial-ratios",
+      "int-ab-testing"
+    ],
+    "should_avoid": "افصل المبيعات الجديدة عن تقديم موعد شراء عملاء كانوا هيشتروا عادي."
+  },
+  {
+    "id": "v2-26",
+    "sector": "general",
+    "scenario": "price-change",
+    "question": "لو خفضت سعر البيع 10%، هل اقدر افترض ان الكمية هتزيد؟ محتاج أعرف أثره على هامش المساهمة",
+    "evidence_ids": [
+      "int-price-experiment",
+      "guide-financial-ratios",
+      "int-ab-testing"
+    ],
+    "should_avoid": "محاكاة استجابة الطلب تحتاج بيانات اختبار أو افتراضًا يؤكده العميل."
+  },
+  {
+    "id": "v2-27",
+    "sector": "manufacturing",
+    "scenario": "cost-cut",
+    "question": "أقلل مصاريف التشغيل ازاي وأحسب أثر التوفير على السيولة بعد تكلفة التنفيذ؟",
+    "evidence_ids": [
+      "guide-cash-dashboard",
+      "guide-financial-ratios"
+    ],
+    "should_avoid": "قسّم المصاريف إلى ثابتة ومتغيرة واترك أثر الجودة افتراضًا قابلًا للاختبار."
+  },
+  {
+    "id": "v2-28",
+    "sector": "business-services",
+    "scenario": "collections",
+    "question": "العميل اتأخر في سداد الفاتورة، ده هيأثر على النقد والتحصيل ازاي لو الإيراد سجلته؟",
+    "evidence_ids": [
+      "int-quickpay",
+      "guide-cash-conversion",
+      "guide-cash-dashboard"
+    ],
+    "should_avoid": "فرّق بين تغيير توقيت القبض وخسارة الفاتورة."
+  },
+  {
+    "id": "v2-29",
+    "sector": "food",
+    "scenario": "inventory",
+    "question": "عايز أقلل المخزون في مصنع والفاقد. الدراسات تفرق ازاي بين الجودة ونفاد مخزون؟",
+    "evidence_ids": [
+      "int-india-management",
+      "int-woodruff-practices",
+      "guide-cash-conversion"
+    ],
+    "should_avoid": "أثر خفض المخزون على المبيعات وخدمة العميل يحتاج افتراضًا أو قياسًا خاصًا بنشاطه."
+  },
+  {
+    "id": "v2-30",
+    "sector": "manufacturing",
+    "scenario": "currency",
+    "question": "لو الدولار غلي و30% من مدخلات تصنيعي بالدولار، أفرق ازاي بين فرق سعر الصرف وحجم تعرض الشركة؟",
+    "evidence_ids": [
+      "eg-cbe-exchange",
+      "eg-imf-macro-2026"
+    ],
+    "should_avoid": "عملة العرض مش هي نسبة التعرض؛ افصل الإيرادات والتكاليف والديون المعرّضة."
+  },
+  {
+    "id": "v2-31",
+    "sector": "food",
+    "scenario": "inflation",
+    "question": "هل التضخم العام زي زيادة تكلفة المواد الغذائية والمصاريف اللي في حساباتي؟",
+    "evidence_ids": [
+      "eg-cbe-inflation",
+      "eg-imf-macro-2026"
+    ],
+    "should_avoid": "سلة مؤشر المستهلك غير سلة تكلفة الشركة. اطلب مدخلات مناسبة."
+  },
+  {
+    "id": "v2-32",
+    "sector": "real-estate",
+    "scenario": "interest",
+    "question": "هل قرار فائدة البنك المركزي هيغير سعر القرض العقاري متغير الفائدة وامتى؟",
+    "evidence_ids": [
+      "eg-cbe-interest",
+      "eg-wdi-lending"
+    ],
+    "should_avoid": "الصدمة تطبق حسب عقد الدين. مؤشر البلد سياق للمقارنة."
+  },
+  {
+    "id": "v2-33",
+    "sector": "fintech",
+    "scenario": "loan",
+    "question": "هل فيه دراسة مصرية قارنت قرض لمنشأة صغيرة بمنحة نقدية؟",
+    "evidence_ids": [
+      "eg-microfinance-rct"
+    ],
+    "should_avoid": "سؤال البنك عن الشروط خاص به؛ البحث التجريبي يوضح أثر البرنامج المدروس."
+  },
+  {
+    "id": "v2-34",
+    "sector": "software",
+    "scenario": "equity",
+    "question": "فين أقرأ عن الاستثمار الجريء وتمويل الشركات الناشئة في مصر؟",
+    "evidence_ids": [
+      "eg-itida-ecosystem-2026"
+    ],
+    "should_avoid": "وجود تمويل في السوق لا يقدّر فرصة إغلاق جولة تمويل."
+  },
+  {
+    "id": "v2-35",
+    "sector": "manufacturing",
+    "scenario": "import-substitution",
+    "question": "هغيّر مورد خامة مستوردة لمورد محلي، أجيب بيانات الواردات حسب البلد ورمز السلعة منين؟",
+    "evidence_ids": [
+      "eg-wits-trade"
+    ],
+    "should_avoid": "اختبر فرق الجودة والطاقة ومواعيد التوفر بجانب السعر."
+  },
+  {
+    "id": "v2-36",
+    "sector": "business-services",
+    "scenario": "hiring",
+    "question": "ايه حصة الشركات حديثة العمر في الخدمات والتصنيع في التعداد المصري، وهل ده معناه فرص توظيف؟",
+    "evidence_ids": [
+      "eg-oecd-young-firms-2026"
+    ],
+    "should_avoid": "العمالة الجديدة لا تحقق إنتاجية فورية؛ استخدم تدريجًا يعتمد على الدور."
+  },
+  {
+    "id": "v2-37",
+    "sector": "education",
+    "scenario": "training",
+    "question": "entrepreneurship training في تونس، فيه نتائج بعد الدراسة وبعد أربع سنين؟",
+    "evidence_ids": [
+      "eg-erf-digital-adoption",
+      "mena-tunisia-training-short",
+      "mena-tunisia-training-followup"
+    ],
+    "should_avoid": "اختيار تدريب معين يحتاج مقارنة العينة والفترة. استخدم المتابعات لنفس الدراسة كعائلة واحدة."
+  },
+  {
+    "id": "v2-38",
+    "sector": "software",
+    "scenario": "automation",
+    "question": "ايه أبحاث تحسين الإنتاجية من ممارسات إدارة الجودة والمخزون قبل ما أشتري برنامج أتمتة؟",
+    "evidence_ids": [
+      "int-india-management",
+      "int-woodruff-practices"
+    ],
+    "should_avoid": "الوفورات تتعلق بتبني الحل فعليًا وجودة تنفيذه."
+  },
+  {
+    "id": "v2-39",
+    "sector": "retail",
+    "scenario": "acquisition",
+    "question": "عايز بحث يوضح لو تدريب التسويق يزود المبيعات أسرع من تدريب المالية وتقليل التكاليف",
+    "evidence_ids": [
+      "int-marketing-training"
+    ],
+    "should_avoid": "افصل التحويل الإضافي من التحويل اللي كان هيحصل طبيعيًا، وتتبع النتائج حسب القناة."
+  },
+  {
+    "id": "v2-40",
+    "sector": "general",
+    "scenario": "tax",
+    "question": "فين المرجع الرسمي لمبادرة تسهيلات الضرائب في مصر للشركات؟",
+    "evidence_ids": [
+      "eg-eta-tax"
+    ],
+    "should_avoid": "لا تستخدم رقمًا عامًا كنسبة ضريبية نافذة. صعّد الحالات غير الواضحة لمختص."
+  },
+  {
+    "id": "v2-41",
+    "sector": "general",
+    "scenario": "failure-risk",
+    "question": "هل نسبة مديونية واحدة تقدر تقول إن شركتي هتفلس، ولا أحتاج أقارن السيولة مع الربحية؟",
+    "evidence_ids": [
+      "guide-financial-ratios",
+      "guide-cash-dashboard"
+    ],
+    "should_avoid": "خصائص عينات Poland ليست احتمال إفلاس معتمد لشركة مصرية. ربط الأثر المالي بافتراضات صريحة."
+  },
+  {
+    "id": "v2-42",
+    "sector": "general",
+    "scenario": "formalization",
+    "question": "عايز أعرف إجراءات تسجيل الشركة وتأسيسها في مصر. أرجع لـ GAFI ولا تقرير قديم؟",
+    "evidence_ids": [
+      "eg-gafi-investor"
+    ],
+    "should_avoid": "النشاط والمكان يغيران المطلوب. راجع الجهة الرسمية في تاريخ السؤال."
+  },
+  {
+    "id": "v2-43",
+    "sector": "software",
+    "scenario": "new-product",
+    "question": "هل في تجارب عشوائية عن اختبار الفرضيات قبل ما أكمّل في فكرة المنتج أو أوقفه؟",
+    "evidence_ids": [
+      "int-camuffo-rct"
+    ],
+    "should_avoid": "مقياس النجاح لازم يتحدد قبل الاختبار؛ اربط زيارة الموقع أو التحويل بهدف تجاري."
+  }
+]
