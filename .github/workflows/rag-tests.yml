@@ -1,24 +1,43 @@
-name: RAG Tests
+name: RAG CI
 
 on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: rag-ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check merge conflicts with main
+        run: |
+          git fetch origin main
+          git merge --no-commit --no-ff origin/main
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: rag/requirements-dev.txt
 
       - name: Install dependencies
-        run: pip install -r rag/requirements-dev.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r rag/requirements-dev.txt
 
       - name: Run RAG tests
         run: python -m pytest rag/tests -q
