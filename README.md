@@ -15,6 +15,13 @@ FinVision helps founders in Egypt ask questions about their business and review 
 
 The [data guide](data/README.md) lists the files, their sources, and which work uses them.
 
+## Project data
+
+- [Poland bankruptcy data](data/poland/README.md) for training and evaluating the ML models.
+- [World Bank indicators](data/world-bank/README.md) for economic analysis in Egypt and comparator economies.
+
+The [data guide](data/README.md) links to the files, sources, and formats.
+
 ## Phase 1
 
 | Who | Work |
